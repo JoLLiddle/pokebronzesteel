@@ -181,8 +181,8 @@ Moves:
 	move DARK_PULSE,   FLINCH_SIDE_EFFECT1,         80, DARK,         100, 15
 	move FOUL_PLAY,    NO_ADDITIONAL_EFFECT,        95, DARK,         100, 15
 	move SNARL,        SPECIAL_DOWN_SIDE_EFFECT,    55, DARK,          95, 15
-	move BULLET_PUNCH, NO_ADDITIONAL_EFFECT,        40, STEEL,         40, 30
+	move BULLETPUNCH,  NO_ADDITIONAL_EFFECT,        40, STEEL,        100, 30
 	move METAL_CLAW,   ATTACK_UP1_EFFECT,           50, STEEL,         95, 35
-	move MIRROR_SHOT,  ACCURACY_DOWN1_EFFECT,       65, STEEL,         85, 10
+	move MIRROR_SHOT,  ACCURACY_DOWN1_EFFECT,       30, STEEL,         85, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

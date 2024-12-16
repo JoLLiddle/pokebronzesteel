@@ -5,5 +5,5 @@ PriorityMovesList:
         db COUNTER,        1
         db QUICK_ATTACK,   9
         db PURSUIT,        8
-        db BULLET_PUNCH,   8         
+        db BULLETPUNCH,   8         
         db -1 ; end

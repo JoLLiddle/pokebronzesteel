@@ -1319,8 +1319,8 @@ SnarlAnim:
 	db -1 ; end
 
 MirrorShotAnim:
-	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
-	battle_anim REFLECT, SUBANIM_1_BARRIER, 1, 6
-	battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
-	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-	db -1 ; end
+   battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	 battle_anim REFLECT, SUBANIM_1_BARRIER, 1, 6
+	 battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
+	 battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	 db -1 ; end

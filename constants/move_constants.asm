@@ -176,7 +176,7 @@
 	const DARK_PULSE   ; a8
 	const FOUL_PLAY    ; a9
 	const SNARL        ; aa
-	const BULLET_PUNCH ; ab
+	const BULLETPUNCH  ; ab
 	const METAL_CLAW   ; ac
 	const MIRROR_SHOT  ; ad
 	const STRUGGLE     ; ae
