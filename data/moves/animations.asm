@@ -169,6 +169,10 @@ AttackAnimationPointers:
 	dw CrunchAnim
 	dw DarkPulseAnim
 	dw FoulPlayAnim
+	dw SnarlAnim
+	dw BulletPunchAnim
+	dw MetalClawAnim
+	dw MirrorShotAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -305,6 +309,7 @@ SwordsDanceAnim:
 	battle_anim SWORDS_DANCE, SUBANIM_1_SWORDS_CIRCLING, 1, 6
 	db -1 ; end
 
+MetalClawAnim:
 CutAnim:
 	battle_anim CUT, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
@@ -383,6 +388,7 @@ FuryAttackAnim:
 	battle_anim NO_MOVE, SUBANIM_0_HORN_JAB_THRICE, 0, 2
 	db -1 ; end
 
+BulletPunchAnim:
 HornDrillAnim:
 	battle_anim HORN_DRILL, SUBANIM_1_STAR_BIG, 1, 2
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
@@ -1303,5 +1309,18 @@ DarkPulseAnim:
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim NO_MOVE, SE_DARKEN_MON_PALETTE
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+SnarlAnim:
+	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
+	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
+	battle_anim HEADBUTT, SUBANIM_1_STAR_BIG, 1, 6
+	db -1 ; end
+
+MirrorShotAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim REFLECT, SUBANIM_1_BARRIER, 1, 6
+	battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end

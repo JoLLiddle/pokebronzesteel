@@ -175,7 +175,11 @@
 	const CRUNCH       ; a7
 	const DARK_PULSE   ; a8
 	const FOUL_PLAY    ; a9
-	const STRUGGLE     ; aa
+	const SNARL        ; aa
+	const BULLET_PUNCH ; ab
+	const METAL_CLAW   ; ac
+	const MIRROR_SHOT  ; ad
+	const STRUGGLE     ; ae
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

@@ -169,7 +169,11 @@ MoveSoundTable:
 	db SFX_BATTLE_35,          $42, $01 ; NIGHT_DAZE (DREAM_EATER)
 	db SFX_BATTLE_0B,          $01, $80 ; CRUNCH (COMET_PUNCH)
 	db SFX_BATTLE_1B,          $f1, $ff ; DARK_PULSE (SMOKESCREEN)
-	db SFX_BATTLE_26,          $f0, $ff ; FOUL PLAY (SUPER_FANG)
+	db SFX_BATTLE_26,          $f0, $ff ; FOUL_PLAY (SUPER_FANG)
+	db SFX_BATTLE_0B,          $00, $40 ; SNARL (ROAR)
+	db SFX_HORN_DRILL,         $00, $a0 ; BULLET_PUNCH (HORN_DRILL)
+	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; METAL_CLAW (CUT)
+	db SFX_NOT_VERY_EFFECTIVE, $f0, $10 ; MIRROR_SHOT (REFLECT)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

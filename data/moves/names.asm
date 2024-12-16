@@ -169,5 +169,9 @@ MoveNames::
 	li "CRUNCH"
 	li "DARK PULSE"
 	li "FOUL PLAY"
+	li "SNARL"
+	li "BULLET PUNCH"
+	li "METAL CLAW"
+	li "MIRROR SHOT"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
