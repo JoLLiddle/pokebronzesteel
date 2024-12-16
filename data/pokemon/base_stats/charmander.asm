@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmander.pic", 0, 1 ; sprite dimensions
 	dw CharmanderPicFront, CharmanderPicBack
 
-	db STEEL_WING, IRON_TAIL, IRON_HEAD, FLASHCANNON ; level 1 learnset
+	db FAIRY_WIND, DRAININGKISS, DAZZLE, PLAY_ROUGH ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

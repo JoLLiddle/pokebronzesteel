@@ -178,6 +178,10 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $20, $40 ; IRON_TAIL (STRENGTH)
 	db SFX_BATTLE_26,          $20, $40 ; IRON_HEAD (STRENGTH)
 	db SFX_BATTLE_28,          $00, $80 ; FLASHCANNON (AURORA_BEAM)
+	db SFX_BATTLE_12,          $00, $c0 ; FAIRY_WIND (GUST)
+	db SFX_BATTLE_24,          $00, $80 ; DRAININGKISS (ABSORB)
+	db SFX_BATTLE_13,          $f1, $ff ; DAZZLE (CONFUSE_RAY)
+	db SFX_BATTLE_36,          $00, $80 ; PLAY_ROUGH (HYPER_BEAM)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

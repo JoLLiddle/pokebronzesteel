@@ -183,7 +183,11 @@
 	const IRON_TAIL    ; af
 	const IRON_HEAD    ; b0
 	const FLASHCANNON  ; b1
-	const STRUGGLE     ; b2
+	const FAIRY_WIND   ; b2
+	const DRAININGKISS ; b3
+	const DAZZLE       ; b4
+	const PLAY_ROUGH   ; b5
+	const STRUGGLE     ; b6
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

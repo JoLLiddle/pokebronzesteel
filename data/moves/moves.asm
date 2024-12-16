@@ -187,6 +187,10 @@ Moves:
 	move STEEL_WING,   DEFENSE_UP1_EFFECT,          55, STEEL,         90, 25
 	move IRON_TAIL,    DEFENSE_DOWN_SIDE_EFFECT,   100, STEEL,         75, 15
 	move IRON_HEAD,    FLINCH_SIDE_EFFECT2,         80, STEEL,        100, 15
-	move FLASHCANNON,  SPECIAL_DOWN_SIDE_EFFECT,   120, STEEL,         70, 5
+	move FLASHCANNON,  SPECIAL_DOWN_SIDE_EFFECT,   120, STEEL,         70,  5
+	move FAIRY_WIND,   NO_ADDITIONAL_EFFECT,        40, FAIRY,        100, 30
+	move DRAININGKISS, DRAIN_HP_EFFECT,             50, FAIRY,        100, 10
+	move DAZZLE,       NO_ADDITIONAL_EFFECT,        80, FAIRY,        100, 10
+	move PLAY_ROUGH,   ATTACK_DOWN_SIDE_EFFECT,     90, FAIRY,         90, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

@@ -177,5 +177,9 @@ MoveNames::
 	li "IRON TAIL"
 	li "IRON HEAD"
 	li "FLASHCANNON"
+	li "FAIRY WIND"
+	li "DRAININGKISS"
+	li "DAZZLE"
+	li "PLAY ROUGH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

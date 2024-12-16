@@ -177,6 +177,10 @@ AttackAnimationPointers:
 	dw IronTailAnim
 	dw IronHeadAnim
 	dw FlashCannonAnim
+	dw FairyWindAnim
+	dw DrainingKissAnim
+	dw DazzleAnim
+	dw PlayRoughAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -319,6 +323,7 @@ CutAnim:
 	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
 	db -1 ; end
 
+FairyWindAnim:
 GustAnim:
 	battle_anim GUST, SUBANIM_1_TORNADO, 1, 6
 	battle_anim NO_MOVE, SUBANIM_0_STAR_THRICE, 0, 6
@@ -625,6 +630,7 @@ StrengthAnim:
 	battle_anim FIRE_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
+DrainingKissAnim:
 AbsorbAnim:
 	battle_anim ABSORB, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLES_1_SQUARES_CENTERING_ENEMY, 0, 6
@@ -854,6 +860,7 @@ SmokeScreenAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+DazzleAnim:
 ConfuseRayAnim:
 	battle_anim CONFUSE_RAY, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_TOSS, 1, 6
@@ -1124,6 +1131,7 @@ RockSlideAnim:
 	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
+PlayRoughAnim:
 HyperFangAnim:
 	battle_anim HYPER_FANG, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
