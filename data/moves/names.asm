@@ -173,5 +173,9 @@ MoveNames::
 	li "BULLETPUNCH"
 	li "METAL CLAW"
 	li "MIRROR SHOT"
+	li "STEEL WING"
+	li "IRON TAIL"
+	li "IRON HEAD"
+	li "FLASHCANNON"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

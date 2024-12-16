@@ -179,7 +179,11 @@
 	const BULLETPUNCH  ; ab
 	const METAL_CLAW   ; ac
 	const MIRROR_SHOT  ; ad
-	const STRUGGLE     ; ae
+	const STEEL_WING   ; ae
+	const IRON_TAIL    ; af
+	const IRON_HEAD    ; b0
+	const FLASHCANNON  ; b1
+	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

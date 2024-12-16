@@ -173,6 +173,10 @@ AttackAnimationPointers:
 	dw BulletPunchAnim
 	dw MetalClawAnim
 	dw MirrorShotAnim
+	dw SteelWingAnim
+	dw IronTailAnim
+	dw IronHeadAnim
+	dw FlashCannonAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -329,6 +333,7 @@ WhirlwindAnim:
 	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF
 	db -1 ; end
 
+SteelWingAnim:
 FlyAnim:
 	battle_anim FLY, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
@@ -556,6 +561,7 @@ BubbleBeamAnim:
 	battle_anim BUBBLEBEAM, SUBANIM_0_WATER_BUBBLES, 0, 18
 	db -1 ; end
 
+FlashCannonAnim:
 AuroraBeamAnim:
 	battle_anim AURORA_BEAM, SUBANIM_0_BEAM, 0, 3
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
@@ -612,6 +618,7 @@ SeismicTossAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+IronTailAnim:
 StrengthAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
@@ -1324,3 +1331,9 @@ MirrorShotAnim:
 	 battle_anim HYPER_BEAM, SUBANIM_0_BEAM, 0, 2
 	 battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	 db -1 ; end
+
+	IronHeadAnim:
+	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_RESET_MON_POSITION
+	battle_anim HEADBUTT, SUBANIM_1_STAR_BIG, 1, 6
+	db -1 ; end
