@@ -176,5 +176,9 @@ Moves:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move PURSUIT,      NO_ADDITIONAL_EFFECT,        40, DARK,         100, 20
+	move NIGHT_DAZE,   ACCURACY_DOWN1_EFFECT,       85, DARK,          95, 10
+	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
+	move DARK_PULSE,   FLINCH_SIDE_EFFECT1,         80, DARK,         100, 15
+	move FOUL_PLAY,    NO_ADDITIONAL_EFFECT,        95, DARK,         100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

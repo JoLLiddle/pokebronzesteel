@@ -171,7 +171,11 @@
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const PURSUIT      ; a5
-	const STRUGGLE     ; a6
+	const NIGHT_DAZE   ; a6
+	const CRUNCH       ; a7
+	const DARK_PULSE   ; a8
+	const FOUL_PLAY    ; a9
+	const STRUGGLE     ; aa
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

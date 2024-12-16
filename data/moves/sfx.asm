@@ -165,7 +165,11 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
-	db SFX_BATTLE_25,          $00, $10 ; PURSUIT
+	db SFX_BATTLE_25,          $00, $10 ; PURSUIT (QUICK ATTACK)
+	db SFX_BATTLE_35,          $42, $01 ; NIGHT_DAZE (DREAM_EATER)
+	db SFX_BATTLE_0B,          $01, $80 ; CRUNCH (COMET_PUNCH)
+	db SFX_BATTLE_1B,          $f1, $ff ; DARK_PULSE (SMOKESCREEN)
+	db SFX_BATTLE_26,          $f0, $ff ; FOUL PLAY (SUPER_FANG)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

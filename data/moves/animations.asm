@@ -165,6 +165,10 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw PursuitAnim
+	dw NightDazeAnim
+	dw CrunchAnim
+	dw DarkPulseAnim
+	dw FoulPlayAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -247,6 +251,7 @@ DoubleSlapAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_TWICE, 0, 5
 	db -1 ; end
 
+CrunchAnim:
 CometPunchAnim:
 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
@@ -1000,6 +1005,7 @@ GlareAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+NightDazeAnim:
 DreamEaterAnim:
 	battle_anim DREAM_EATER, SE_FLASH_SCREEN_LONG
 	battle_anim DREAM_EATER, SE_DARK_SCREEN_PALETTE
@@ -1129,6 +1135,7 @@ TriAttackAnim:
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
 	db -1 ; end
 
+FoulPlayAnim:
 SuperFangAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim SUPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
@@ -1279,4 +1286,22 @@ ThrowRockAnim:
 
 ThrowBaitAnim:
 	battle_anim BARRAGE, SUBANIM_0_SAFARI_BAIT, 0, 3
+	db -1 ; end
+
+DarkPulseAnim:
+	battle_anim BARRAGE, SUBANIM_1_CIRCLE_BLACK_TOSS, 1, 3
+	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
+	battle_anim NO_MOVE, SE_DARKEN_MON_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DARKEN_MON_PALETTE
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end

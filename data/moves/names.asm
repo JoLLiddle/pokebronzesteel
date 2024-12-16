@@ -165,5 +165,9 @@ MoveNames::
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "PURSUIT"
+	li "NIGHT DAZE"
+	li "CRUNCH"
+	li "DARK PULSE"
+	li "FOUL PLAY"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmander.pic", 0, 1 ; sprite dimensions
 	dw CharmanderPicFront, CharmanderPicBack
 
-	db SCRATCH, GROWL, PURSUIT, NO_MOVE ; level 1 learnset
+	db NIGHT_DAZE, CRUNCH, DARK_PULSE, FOUL_PLAY ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
