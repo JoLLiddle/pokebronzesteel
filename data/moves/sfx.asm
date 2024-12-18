@@ -182,6 +182,17 @@ MoveSoundTable:
 	db SFX_BATTLE_24,          $00, $80 ; DRAININGKISS (ABSORB)
 	db SFX_BATTLE_13,          $f1, $ff ; DAZZLE (CONFUSE_RAY)
 	db SFX_BATTLE_36,          $00, $80 ; PLAY_ROUGH (HYPER_BEAM)
+	db SFX_BATTLE_09,          $88, $10 ; CHARM (LOVELY_KISS)
+	db SFX_BATTLE_26,          $01, $60 ; MOONBLAST (SEISMIC_TOSS)
+	db SFX_BATTLE_33,          $00, $80 ; MOONS_FATE (RECOVER)
+	db SFX_BATTLE_25,          $00, $10 ; METER_MASH (QUICK_ATTACK)
+	db SFX_PSYBEAM,            $00, $80 ; MOON_RAY (PSYBEAM)
+	db SFX_BATTLE_2B,          $1f, $60 ; STARFALL (SWIFT)
+	db SFX_BATTLE_23,          $01, $c0 ; MOON_TOUCH (SUBMISSION)
+	db SFX_BATTLE_29,          $00, $80 ; INFESTATION (MIST)
+	db SFX_BATTLE_27,          $40, $60 ; BUG_BUZZ (SUPERSONIC)
+	db SFX_BATTLE_24,          $00, $80 ; BUG_BITE (LEECH_LIFE)
+	db SFX_BATTLE_17,          $01, $e0 ; ROCK_BLAST (HI_JUMP_KICK)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

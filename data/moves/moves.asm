@@ -72,7 +72,7 @@ Moves:
 	move BLIZZARD,     FREEZE_SIDE_EFFECT1,        120, ICE,           90,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
-	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
+	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, MOON,         100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
 	move PECK,         NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
 	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        80, FLYING,       100, 20
@@ -192,5 +192,16 @@ Moves:
 	move DRAININGKISS, DRAIN_HP_EFFECT,             50, FAIRY,        100, 10
 	move DAZZLE,       NO_ADDITIONAL_EFFECT,        80, FAIRY,        100, 10
 	move PLAY_ROUGH,   ATTACK_DOWN_SIDE_EFFECT,     90, FAIRY,         90, 10
+	move CHARM,        ATTACK_DOWN2_EFFECT,          0, FAIRY,        100, 20
+	move MOONBLAST,    SPECIAL_DOWN_SIDE_EFFECT,    95, MOON,         100, 15
+	move MOONS_FATE,   METRONOME_EFFECT,             0, MOON,         100,  5
+	move METEOR_MASH,  ATTACK_UP1_EFFECT,           90, MOON,          90, 10
+	move MOON_RAY,     BURN_SIDE_EFFECT1,           40, MOON,         100, 25
+	move STARFALL,     FLINCH_SIDE_EFFECT1,         65, MOON,         100, 15
+	move MOON_TOUCH,   FREEZE_SIDE_EFFECT1,         80, MOON,         100, 15
+	move INFESTATION,  TRAPPING_EFFECT,             20, BUG,           85, 20
+	move BUG_BUZZ,     SPECIAL_DOWN_SIDE_EFFECT,    90, BUG,           90, 10
+	move BUG_BITE,     DRAIN_HP_EFFECT,             60, BUG,           60, 10
+	move ROCK_BLAST,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,          90, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

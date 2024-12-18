@@ -187,7 +187,18 @@
 	const DRAININGKISS ; b3
 	const DAZZLE       ; b4
 	const PLAY_ROUGH   ; b5
-	const STRUGGLE     ; b6
+	const CHARM        ; b6
+	const MOONBLAST    ; b7
+	const MOONS_FATE   ; b8
+	const METEOR_MASH  ; b9
+	const MOON_RAY     ; ba
+	const STARFALL     ; bb
+	const MOON_TOUCH   ; bc
+	const INFESTATION  ; bd
+	const BUG_BUZZ     ; be
+	const BUG_BITE     ; bf
+	const ROCK_BLAST   ; c0
+	const STRUGGLE     ; b1
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

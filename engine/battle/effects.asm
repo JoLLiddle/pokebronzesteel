@@ -1514,3 +1514,7 @@ PlayBattleAnimationGotID:
 	pop de
 	pop hl
 	ret
+
+FateEffect:
+;stump
+  ret
