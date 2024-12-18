@@ -196,6 +196,11 @@ AttackAnimationPointers:
 	dw UrSteinAnim
 	dw BadOmenAnim
 	dw AstonishAnim
+	dw ShadowBallAnim
+	dw PhantomHitAnim
+	dw ShadowAtkAnim
+	dw ShadeSneakAnim
+	dw VanishAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -763,6 +768,7 @@ FissureAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+PhantomHitAnim:
 DigAnim:
 	battle_anim DIG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SLIDE_MON_UP
@@ -1046,6 +1052,7 @@ GlareAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+ShadowAtkAnim:
 NightDazeAnim:
 DreamEaterAnim:
 	battle_anim DREAM_EATER, SE_FLASH_SCREEN_LONG
@@ -1334,6 +1341,7 @@ ThrowBaitAnim:
 	battle_anim BARRAGE, SUBANIM_0_SAFARI_BAIT, 0, 3
 	db -1 ; end
 
+ShadowBallAnim:
 DarkPulseAnim:
 	battle_anim BARRAGE, SUBANIM_1_CIRCLE_BLACK_TOSS, 1, 3
 	battle_anim NO_MOVE, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
@@ -1391,4 +1399,19 @@ UrSteinAnim:
 RockBlastAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
 	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	db -1 ; end
+
+VanishAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SLIDE_MON_DOWN
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+ShadeSneakAnim:
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end

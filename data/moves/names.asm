@@ -196,5 +196,10 @@ MoveNames::
 	li "UR STEIN"
 	li "BAD OMEN"
 	li "ASTONISH"
+	li "SHADOW BALL"
+	li "PHANTOM HIT"
+	li "SHADOW ATK"
+	li "SHADE SNEAK"
 	li "STRUGGLE"
+	li "VANISH"
 	assert_list_length NUM_ATTACKS

@@ -202,7 +202,12 @@
 	const UR_STEIN     ; c2
 	const BAD_OMEN     ; c3
 	const ASTONISH     ; c4
-	const STRUGGLE     ; c5
+	const SHADOW_BALL  ; c5
+	const PHANTOM_HIT  ; c6
+	const SHADOW_ATK   ; c7
+	const SHADE_SNEAK  ; c8
+	const VANISH_ANIM  ; c9 flash black then disappear user
+	const STRUGGLE     ; ca
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
@@ -244,5 +249,6 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const HIDEPIC_ANIM ; monster disappears
 	const ROCK_ANIM ; throw rock
 	const BAIT_ANIM ; throw bait
+	
 
 DEF NUM_ATTACK_ANIMS EQU const_value - 1

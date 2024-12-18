@@ -1031,6 +1031,12 @@ ChargeEffect:
 	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
 	ld b, TELEPORT ; load Teleport's animation
 .notFly
+  ld a, [de]
+  cp PHANTOM_HIT
+	jr nz, .notPhantom
+	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
+	ld b, VANISH_ANIM ; load the special vanish animation
+.notPhantom
 	ld a, [de]
 	cp DIG
 	jr nz, .notDigOrFly
@@ -1067,6 +1073,8 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
+	cp PHANTOM_HIT
+	ld hl, VanishesText
 .gotText
 	ret
 
@@ -1092,6 +1100,10 @@ FlewUpHighText:
 
 DugAHoleText:
 	text_far _DugAHoleText
+	text_end
+
+VanishesText:
+	text_far _VanishesText
 	text_end
 
 TrappingEffect:

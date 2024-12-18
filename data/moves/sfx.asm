@@ -197,6 +197,11 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $f0, $20 ; UR_STEIN (STONE_EDGE (ROCK_SLIDE))
 	db SFX_BATTLE_31,          $ff, $40 ; BAD_OMEN (LEER)
 	db SFX_BATTLE_0B,          $00, $40 ; ASTONISH (SNARL (ROAR))
+	db SFX_NOT_VERY_EFFECTIVE, $f0, $e0 ; SHADOW_BALL (NIGHT_SHADE)
+	db SFX_DAMAGE,             $10, $40 ; PHANTOM_HIT (DIG)
+	db SFX_BATTLE_35,          $42, $01 ; SHADOW_ATK (DREAM_EATER)
+	db SFX_BATTLE_25,          $00, $10 ; SHADE_SNEAK (QUICK_ATTACK)
+	db SFX_BATTLE_1B,          $01, $a0 ; VANISH_ANIM (SAND_ATTACK)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

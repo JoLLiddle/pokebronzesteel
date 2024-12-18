@@ -172,6 +172,11 @@ _DugAHoleText::
 	line "dug a hole!"
 	prompt
 
+_VanishesText::
+  text_start
+	line "vanishes!"
+	prompt
+
 _BecameConfusedText::
 	text "<TARGET>"
 	line "became confused!"

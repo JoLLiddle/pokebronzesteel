@@ -206,6 +206,11 @@ Moves:
 	move STONE_EDGE,   NO_ADDITIONAL_EFFECT,       100, ROCK,          80,  5
 	move UR_STEIN,     SPECIAL_DAMAGE_EFFECT,       60, ROCK,         100, 10
 	move BAD_OMEN,     SPECIAL_DAMAGE_EFFECT,       60, GHOST,        100, 10
-	move ASTONISH,     FLINCH_SIDE_EFFECT1,         30, GHOST,        100, 15          
+	move ASTONISH,     FLINCH_SIDE_EFFECT1,         30, GHOST,        100, 20
+	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
+	move PHANTOM_HIT,  CHARGE_EFFECT,               90, GHOST,        100, 10
+	move SHADOW_ATK,   NO_ADDITIONAL_EFFECT,        60, GHOST,        100, 20
+	move SHADE_SNEAK,  NO_ADDITIONAL_EFFECT,        40, GHOST,        100, 25
+	move VANISH_ANIM,  NO_ADDITIONAL_EFFECT,         0, GHOST,        100, 30
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

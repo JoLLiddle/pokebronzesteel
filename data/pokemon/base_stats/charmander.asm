@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmander.pic", 0, 1 ; sprite dimensions
 	dw CharmanderPicFront, CharmanderPicBack
 
-	db STONE_EDGE, UR_STEIN, BAD_OMEN, ASTONISH ; level 1 learnset
+	db SHADOW_BALL, PHANTOM_HIT, SHADOW_ATK, SHADE_SNEAK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
