@@ -193,6 +193,10 @@ MoveSoundTable:
 	db SFX_BATTLE_27,          $40, $60 ; BUG_BUZZ (SUPERSONIC)
 	db SFX_BATTLE_24,          $00, $80 ; BUG_BITE (LEECH_LIFE)
 	db SFX_BATTLE_17,          $01, $e0 ; ROCK_BLAST (HI_JUMP_KICK)
+	db SFX_BATTLE_36,          $f0, $20 ; STONE_EDGE (ROCK_SLIDE)
+	db SFX_BATTLE_36,          $f0, $20 ; UR_STEIN (STONE_EDGE (ROCK_SLIDE))
+	db SFX_BATTLE_31,          $ff, $40 ; BAD_OMEN (LEER)
+	db SFX_BATTLE_0B,          $00, $40 ; ASTONISH (SNARL (ROAR))
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

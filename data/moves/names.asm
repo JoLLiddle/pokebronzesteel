@@ -192,5 +192,9 @@ MoveNames::
 	li "BUG BUZZ"
 	li "BUG BITE"
 	li "ROCK BLAST"
+	li "STONE EDGE"
+	li "UR STEIN"
+	li "BAD OMEN"
+	li "ASTONISH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -203,5 +203,9 @@ Moves:
 	move BUG_BUZZ,     SPECIAL_DOWN_SIDE_EFFECT,    90, BUG,           90, 10
 	move BUG_BITE,     DRAIN_HP_EFFECT,             60, BUG,           60, 10
 	move ROCK_BLAST,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,          90, 10
+	move STONE_EDGE,   NO_ADDITIONAL_EFFECT,       100, ROCK,          80,  5
+	move UR_STEIN,     SPECIAL_DAMAGE_EFFECT,       60, ROCK,         100, 10
+	move BAD_OMEN,     SPECIAL_DAMAGE_EFFECT,       60, GHOST,        100, 10
+	move ASTONISH,     FLINCH_SIDE_EFFECT1,         30, GHOST,        100, 15          
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

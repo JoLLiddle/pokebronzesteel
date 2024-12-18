@@ -192,6 +192,10 @@ AttackAnimationPointers:
 	dw BugBuzzAnim
 	dw BugBiteAnim
 	dw RockBlastAnim
+	dw StoneEdgeAnim
+	dw UrSteinAnim
+	dw BadOmenAnim
+	dw AstonishAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -478,6 +482,7 @@ PinMissileAnim:
 	battle_anim PIN_MISSILE, SUBANIM_0_STAR_TWICE, 0, 3
 	db -1 ; end
 
+BadOmenAnim:
 LeerAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim LEER, SE_DARK_SCREEN_FLASH
@@ -1144,6 +1149,7 @@ RestAnim:
 	battle_anim REST, SUBANIM_0_STATUS_SLEEP, 0, 16
 	db -1 ; end
 
+StoneEdgeAnim:
 RockSlideAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
@@ -1346,6 +1352,7 @@ DarkPulseAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+AstonishAnim:
 SnarlAnim:
 	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
 	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
@@ -1380,6 +1387,7 @@ MeteorMashAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+UrSteinAnim:
 RockBlastAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
 	battle_anim HYPER_FANG, SUBANIM_1_STAR_BIG_MOVING, 1, 6

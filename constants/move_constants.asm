@@ -198,7 +198,11 @@
 	const BUG_BUZZ     ; be
 	const BUG_BITE     ; bf
 	const ROCK_BLAST   ; c0
-	const STRUGGLE     ; b1
+	const STONE_EDGE   ; c1
+	const UR_STEIN     ; c2
+	const BAD_OMEN     ; c3
+	const ASTONISH     ; c4
+	const STRUGGLE     ; c5
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
