@@ -201,6 +201,16 @@ AttackAnimationPointers:
 	dw ShadowAtkAnim
 	dw ShadeSneakAnim
 	dw VanishAnim
+	dw TwisterAnim
+	dw DragonTailAnim
+	dw DragonRushAnim
+	dw OutrageAnim
+	dw DragonClawAnim
+	dw DracoMeteorAnim
+	dw DragonPulseAnim
+	dw PowderSnowAnim
+	dw GlaciateAnim
+	dw IceSpearsAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -303,6 +313,7 @@ FirePunchAnim:
 	battle_anim NO_MOVE, SUBANIM_1_FLAMES, 1, 6
 	db -1 ; end
 
+GlaciateAnim:
 IcePunchAnim:
 	battle_anim ICE_PUNCH, SUBANIM_0_STAR_THRICE, 0, 6
 	battle_anim NO_MOVE, SUBANIM_0_ICE_RISE, 0, 16
@@ -343,6 +354,7 @@ CutAnim:
 	battle_anim NO_MOVE, SUBANIM_0_SLICE, 0, 4
 	db -1 ; end
 
+TwisterAnim:
 FairyWindAnim:
 GustAnim:
 	battle_anim GUST, SUBANIM_1_TORNADO, 1, 6
@@ -408,6 +420,7 @@ HeadbuttAnim:
 	battle_anim HEADBUTT, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
+IceSpearsAnim:
 HornAttackAnim:
 	battle_anim HORN_ATTACK, SUBANIM_0_HORN_JAB_TWICE, 0, 6
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 6
@@ -519,6 +532,7 @@ SupersonicAnim:
 	battle_anim SUPERSONIC, SUBANIM_0_SOUND_WAVE, 0, 6
 	db -1 ; end
 
+DragonPulseAnim:
 SonicBoomAnim:
 	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
 	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
@@ -548,6 +562,7 @@ FlamethrowerAnim:
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_2, 1, 6
 	db -1 ; end
 
+PowderSnowAnim:
 InfestationAnim:
 MistAnim:
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
@@ -647,6 +662,8 @@ SeismicTossAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+OutrageAnim:
+DragonTailAnim:
 IronTailAnim:
 StrengthAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
@@ -1134,6 +1151,7 @@ AcidArmorAnim:
 	battle_anim ACID_ARMOR, SE_SLIDE_MON_DOWN_AND_HIDE
 	db -1 ; end
 
+DragonClawAnim:
 CrabHammerAnim:
 	battle_anim CRABHAMMER, SUBANIM_1_STAR_BIG, 1, 6
 	battle_anim NO_MOVE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
@@ -1374,13 +1392,13 @@ MirrorShotAnim:
 	 battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	 db -1 ; end
 
-	IronHeadAnim:
+IronHeadAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	battle_anim HEADBUTT, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
-	MoonblastAnim:
+MoonblastAnim:
 	battle_anim CONFUSE_RAY, SE_DARK_SCREEN_PALETTE
 	battle_anim BARRAGE, SUBANIM_1_SPHERE_BIG, 1, 1
   battle_anim SEISMIC_TOSS, SUBANIM_1_SPHERE_BIG_RISE, 1, 2
@@ -1414,4 +1432,21 @@ ShadeSneakAnim:
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+DragonRushAnim:
+	battle_anim QUICK_ATTACK, SE_SLIDE_MON_OFF
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	db -1 ; end
+
+DracoMeteorAnim:
+	battle_anim NO_MOVE, SE_HIDE_ENEMY_MON_PIC
+	battle_anim SEISMIC_TOSS, SUBANIM_1_SPHERE_BIG_FALL, 1, 1
+	battle_anim SEISMIC_TOSS, SUBANIM_1_SPHERE_BIG_FALL, 1, 1
+	battle_anim SEISMIC_TOSS, SUBANIM_1_SPHERE_BIG_FALL, 1, 1
+	battle_anim NO_MOVE, SE_SHOW_ENEMY_MON_PIC
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end

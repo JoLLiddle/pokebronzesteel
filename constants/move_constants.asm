@@ -207,8 +207,20 @@
 	const SHADOW_ATK   ; c7
 	const SHADE_SNEAK  ; c8
 	const VANISH_ANIM  ; c9 flash black then disappear user
-	const STRUGGLE     ; ca
+	const TWISTER      ; ca
+	const DRAGON_TAIL  ; cb
+	const DRAGON_RUSH  ; cc
+	const OUTRAGE      ; cd
+	const DRAGON_CLAW  ; ce
+	const DRACOMETEOR  ; cf
+	const DRAGONPULSE  ; d0
+	const POWDER_SNOW  ; d1
+	const GLACIATE     ; d2
+	const ICE_SPEARS   ; d3
+	const STRUGGLE     ; d4
 DEF NUM_ATTACKS EQU const_value - 1
+
+;last move register is roughly da, so only a few extra spare
 
 	; Moves do double duty as animation identifiers.
 

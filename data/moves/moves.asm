@@ -212,5 +212,15 @@ Moves:
 	move SHADOW_ATK,   NO_ADDITIONAL_EFFECT,        60, GHOST,        100, 20
 	move SHADE_SNEAK,  NO_ADDITIONAL_EFFECT,        40, GHOST,        100, 25
 	move VANISH_ANIM,  NO_ADDITIONAL_EFFECT,         0, GHOST,        100, 30
+	move TWISTER,      FLINCH_SIDE_EFFECT1,         40, DRAGON,       100, 20
+	move DRAGON_TAIL,  SWITCH_AND_TELEPORT_EFFECT,  60, DRAGON,        90, 10
+	move DRAGON_RUSH,  FLINCH_SIDE_EFFECT1,        100, DRAGON,        75, 10
+	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,        90, 10
+	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
+	move DRACOMETEOR,  RECOIL_EFFECT,              130, DRAGON,        85,  5
+	move DRAGONPULSE,  NO_ADDITIONAL_EFFECT,        85, DRAGON,       100, 10
+	move POWDER_SNOW,  FREEZE_SIDE_EFFECT1,         40, ICE,          100, 25
+	move GLACIATE,     SPEED_DOWN1_EFFECT,          65, ICE,           90, 10
+	move ICE_SPEARS,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           90, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
