@@ -7,7 +7,7 @@
 	const DEX_BULBASAUR  ; 1
 	const DEX_IVYSAUR    ; 2
 	const DEX_VENUSAUR   ; 3
-	const DEX_CHARMANDER ; 4
+	const DEX_CHILMANDER ; 4
 	const DEX_CHARMELEON ; 5
 	const DEX_CHARIZARD  ; 6
 	const DEX_SQUIRTLE   ; 7

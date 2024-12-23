@@ -1,9 +1,9 @@
-	db DEX_CHARMANDER ; pokedex id
+	db DEX_CHILMANDER ; pokedex id
 
 	db  39,  52,  43,  65,  50
 	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE ; type
+	db ICE, DRAGON ; type
 	db 45 ; catch rate
 	db 65 ; base exp
 

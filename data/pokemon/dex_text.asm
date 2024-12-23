@@ -1398,10 +1398,10 @@ _MagnemiteDexEntry::
 	next "similar moves"
 	dex
 
-_CharmanderDexEntry::
+_ChilmanderDexEntry::
 	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	next "cold places. When"
+	next "it rains, ice"
 
 	page "is said to spout"
 	next "from the tip of"
