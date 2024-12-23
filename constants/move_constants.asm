@@ -189,35 +189,33 @@
 	const PLAY_ROUGH   ; b5
 	const CHARM        ; b6
 	const MOONBLAST    ; b7
-	const MOONS_FATE   ; b8
-	const METEOR_MASH  ; b9
-	const MOON_RAY     ; ba
-	const STARFALL     ; bb
-	const MOON_TOUCH   ; bc
-	const INFESTATION  ; bd
-	const BUG_BUZZ     ; be
-	const BUG_BITE     ; bf
-	const ROCK_BLAST   ; c0
-	const STONE_EDGE   ; c1
-	const UR_STEIN     ; c2
-	const BAD_OMEN     ; c3
-	const ASTONISH     ; c4
-	const SHADOW_BALL  ; c5
-	const PHANTOM_HIT  ; c6
-	const SHADOW_ATK   ; c7
-	const SHADE_SNEAK  ; c8
-	const VANISH_ANIM  ; c9 flash black then disappear user
-	const TWISTER      ; ca
-	const DRAGON_TAIL  ; cb
-	const DRAGON_RUSH  ; cc
-	const OUTRAGE      ; cd
-	const DRAGON_CLAW  ; ce
-	const DRACOMETEOR  ; cf
-	const DRAGONPULSE  ; d0
-	const POWDER_SNOW  ; d1
-	const GLACIATE     ; d2
-	const ICE_SPEARS   ; d3
-	const STRUGGLE     ; d4
+	const METEOR_MASH  ; b8
+	const MOON_RAY     ; b9
+	const STARFALL     ; ba
+	const MOON_TOUCH   ; bb
+	const INFESTATION  ; bc
+	const BUG_BUZZ     ; bd
+	const BUG_BITE     ; be
+	const ROCK_BLAST   ; bf
+	const STONE_EDGE   ; c0
+	const UR_STEIN     ; c1
+	const BAD_OMEN     ; c2
+	const ASTONISH     ; c3
+	const SHADOW_BALL  ; c4
+	const PHANTOM_HIT  ; c5
+	const SHADOW_ATK   ; c6
+	const SHADE_SNEAK  ; c7
+	const VANISH_ANIM  ; c8 flash black then disappear user
+	const TWISTER      ; c9
+	const DRAGON_RUSH  ; ca
+	const OUTRAGE      ; cb
+	const DRAGON_CLAW  ; cc
+	const DRACOMETEOR  ; cd
+	const DRAGONPULSE  ; ce
+	const POWDER_SNOW  ; cf
+	const GLACIATE     ; d0
+	const ICE_SPEARS   ; d1
+	const STRUGGLE     ; d2
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;last move register is roughly da, so only a few extra spare

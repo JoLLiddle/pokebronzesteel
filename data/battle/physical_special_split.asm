@@ -9,6 +9,14 @@ PhysicalToSpecialMoves:
         db RAZOR_WIND
         db SWIFT
         db TRI_ATTACK
+; Bug
+        db INFESTATION
+        db BUG_BUZZ
+; Rock
+        db UR_STEIN
+; Ghost
+        db BAD_OMEN
+        db SHADOW_BALL
         db -1 ; end
 
 SpecialToPhysicalMoves:
@@ -25,4 +33,23 @@ SpecialToPhysicalMoves:
         db THUNDERPUNCH
 ; Ice
         db ICE_PUNCH
+        db ICE_SPEARS
+; Dark
+        db PURSUIT
+        db CRUNCH
+        db FOUL_PLAY
+; Steel
+        db BULLETPUNCH
+        db METAL_CLAW
+        db STEEL_WING
+        db IRON_TAIL
+        db IRON_HEAD
+; Fairy
+        db PLAY_ROUGH
+; Moon
+        db METEOR_MASH
+; Dragon
+        db DRAGON_RUSH
+        db OUTRAGE
+        db DRAGON_CLAW
         db -1 ; end

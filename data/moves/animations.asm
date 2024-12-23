@@ -183,7 +183,6 @@ AttackAnimationPointers:
 	dw PlayRoughAnim
 	dw CharmAnim
 	dw MoonblastAnim
-	dw MoonsFateAnim
 	dw MeteorMashAnim
 	dw MoonRayAnim
 	dw StarfallAnim
@@ -202,7 +201,6 @@ AttackAnimationPointers:
 	dw ShadeSneakAnim
 	dw VanishAnim
 	dw TwisterAnim
-	dw DragonTailAnim
 	dw DragonRushAnim
 	dw OutrageAnim
 	dw DragonClawAnim
@@ -663,7 +661,6 @@ SeismicTossAnim:
 	db -1 ; end
 
 OutrageAnim:
-DragonTailAnim:
 IronTailAnim:
 StrengthAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
@@ -863,7 +860,6 @@ DoubleTeamAnim:
 	battle_anim BARRIER, SUBANIM_1_BARRIER, 1, 6
 	db -1 ; end
 
-MoonsFateAnim:
 RecoverAnim:
 	battle_anim RECOVER, SE_BLINK_MON
 	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE

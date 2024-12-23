@@ -176,8 +176,8 @@ Moves:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move PURSUIT,      NO_ADDITIONAL_EFFECT,        40, DARK,         100, 20
-	move NIGHT_DAZE,   ACCURACY_DOWN1_EFFECT,       85, DARK,          95, 10
-	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
+	move NIGHT_DAZE,   ACCURACY_DOWN1_EFFECT,       85, DARK,          90, 10
+	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,          95, 15
 	move DARK_PULSE,   FLINCH_SIDE_EFFECT2,         80, DARK,         100, 15
 	move FOUL_PLAY,    NO_ADDITIONAL_EFFECT,        95, DARK,         100, 15
 	move SNARL,        SPECIAL_DOWN_SIDE_EFFECT,    55, DARK,          95, 15
@@ -186,15 +186,14 @@ Moves:
 	move MIRROR_SHOT,  ACCURACY_DOWN1_EFFECT,       30, STEEL,         85, 10
 	move STEEL_WING,   DEFENSE_UP1_EFFECT,          55, STEEL,         90, 25
 	move IRON_TAIL,    DEFENSE_DOWN_SIDE_EFFECT,   100, STEEL,         75, 15
-	move IRON_HEAD,    FLINCH_SIDE_EFFECT2,         80, STEEL,        100, 15
+	move IRON_HEAD,    FLINCH_SIDE_EFFECT2,         80, STEEL,         95, 15
 	move FLASHCANNON,  SPECIAL_DOWN_SIDE_EFFECT,   120, STEEL,         70,  5
 	move FAIRY_WIND,   NO_ADDITIONAL_EFFECT,        40, FAIRY,        100, 30
 	move DRAININGKISS, DRAIN_HP_EFFECT,             50, FAIRY,        100, 10
 	move DAZZLE,       NO_ADDITIONAL_EFFECT,        80, FAIRY,        100, 10
 	move PLAY_ROUGH,   ATTACK_DOWN_SIDE_EFFECT,     90, FAIRY,         90, 10
 	move CHARM,        ATTACK_DOWN2_EFFECT,          0, FAIRY,        100, 20
-	move MOONBLAST,    SPECIAL_DOWN_SIDE_EFFECT,    95, MOON,         100, 15
-	move MOONS_FATE,   METRONOME_EFFECT,             0, MOON,         100,  5
+	move MOONBLAST,    SPECIAL_DOWN_SIDE_EFFECT,    95, MOON,          95, 15
 	move METEOR_MASH,  ATTACK_UP1_EFFECT,           90, MOON,          90, 10
 	move MOON_RAY,     BURN_SIDE_EFFECT1,           40, MOON,         100, 25
 	move STARFALL,     FLINCH_SIDE_EFFECT1,         65, MOON,         100, 15
@@ -213,7 +212,6 @@ Moves:
 	move SHADE_SNEAK,  NO_ADDITIONAL_EFFECT,        40, GHOST,        100, 25
 	move VANISH_ANIM,  NO_ADDITIONAL_EFFECT,         0, GHOST,        100, 30
 	move TWISTER,      FLINCH_SIDE_EFFECT1,         40, DRAGON,       100, 20
-	move DRAGON_TAIL,  SWITCH_AND_TELEPORT_EFFECT,  60, DRAGON,        90, 10
 	move DRAGON_RUSH,  FLINCH_SIDE_EFFECT1,        100, DRAGON,        75, 10
 	move OUTRAGE,      THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,        90, 10
 	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
