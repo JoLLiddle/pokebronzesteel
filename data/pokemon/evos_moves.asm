@@ -40,8 +40,8 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
-	dw MissingNo20EvosMoves
+	dw RaimizuchuEvosMoves
+	dw RaikusachuEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -59,7 +59,7 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw RaikaenchuEvosMoves
 	dw MagmarEvosMoves
 	dw MissingNo34EvosMoves
 	dw ElectabuzzEvosMoves
@@ -547,13 +547,13 @@ TangelaEvosMoves:
 	db 49, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+RaimizuchuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
 	db 0
 
-MissingNo20EvosMoves:
+RaikusachuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -761,7 +761,7 @@ GolemEvosMoves:
 	db 43, EXPLOSION
 	db 0
 
-MissingNo32EvosMoves:
+RaikaenchuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1089,6 +1089,9 @@ PikachuEvosMoves:
 
 RaichuEvosMoves:
 ; Evolutions
+  db EVOLVE_ITEM, WATER_STONE, 1, RAIMIZUCHU
+	db EVOLVE_ITEM, LEAF_STONE, 1, RAIKUSACHU
+	db EVOLVE_ITEM, FIRE_STONE, 1, RAIKAENCHU
 	db 0
 ; Learnset
 	db 0

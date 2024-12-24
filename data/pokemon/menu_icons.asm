@@ -26,6 +26,9 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Arbok
 	nybble ICON_FAIRY     ; Pikachu
 	nybble ICON_FAIRY     ; Raichu
+	nybble ICON_FAIRY     ; Raimizuchu
+	nybble ICON_FAIRY     ; Raikusachu
+	nybble ICON_FAIRY     ; Raikaenchu
 	nybble ICON_MON       ; Sandshrew
 	nybble ICON_MON       ; Sandslash
 	nybble ICON_MON       ; NidoranF

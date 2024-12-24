@@ -30,28 +30,31 @@
 	const DEX_ARBOK      ; 24
 	const DEX_PIKACHU    ; 25
 	const DEX_RAICHU     ; 26
-	const DEX_SANDSHREW  ; 27
-	const DEX_SANDSLASH  ; 28
-	const DEX_NIDORAN_F  ; 29
-	const DEX_NIDORINA   ; 30
-	const DEX_NIDOQUEEN  ; 31
-	const DEX_NIDORAN_M  ; 32
-	const DEX_NIDORINO   ; 33
-	const DEX_NIDOKING   ; 34
-	const DEX_CLEFAIRY   ; 35
-	const DEX_CLEFABLE   ; 36
-	const DEX_VULPIX     ; 37
-	const DEX_NINETALES  ; 38
-	const DEX_JIGGLYPUFF ; 39
-	const DEX_WIGGLYTUFF ; 40
-	const DEX_ZUBAT      ; 41
-	const DEX_GOLBAT     ; 42
-	const DEX_ODDISH     ; 43
-	const DEX_GLOOM      ; 44
-	const DEX_VILEPLUME  ; 45
-	const DEX_PARAS      ; 46
-	const DEX_PARASECT   ; 47
-	const DEX_VENONAT    ; 48
+	const DEX_RAIMIZUCHU ; 27
+	const DEX_RAIKUSACHU ; 28
+	const DEX_RAIKAENCHU ; 29
+	const DEX_SANDSHREW  ; 30
+	const DEX_SANDSLASH  ; 31
+	const DEX_NIDORAN_F  ; 32
+	const DEX_NIDORINA   ; 33
+	const DEX_NIDOQUEEN  ; 34
+	const DEX_NIDORAN_M  ; 35
+	const DEX_NIDORINO   ; 36
+	const DEX_NIDOKING   ; 37
+	const DEX_CLEFAIRY   ; 38
+	const DEX_CLEFABLE   ; 39
+	const DEX_VULPIX     ; 40
+	const DEX_NINETALES  ; 41
+	const DEX_JIGGLYPUFF ; 42
+	const DEX_WIGGLYTUFF ; 43
+	const DEX_ZUBAT      ; 44
+	const DEX_GOLBAT     ; 45
+	const DEX_ODDISH     ; 46
+	const DEX_GLOOM      ; 47
+	const DEX_VILEPLUME  ; 48
+	const DEX_PARAS      ; 49
+	const DEX_PARASECT   ; 50
+	const DEX_VENONAT    ; 48 INCORRECT NUMBERS FROM HERE
 	const DEX_VENOMOTH   ; 49
 	const DEX_DIGLETT    ; 50
 	const DEX_DUGTRIO    ; 51

@@ -298,6 +298,26 @@ _TangelaDexEntry::
 	next "shake as it walks"
 	dex
 
+_RaimizuchuDexEntry::
+	text "Its long tail"
+	next "serves as a"
+	next "ground to protect"
+
+	page "itself from its"
+	next "own high voltage"
+	next "power"
+	dex
+
+	_RaikusachuDexEntry::
+	text "Its long tail"
+	next "serves as a"
+	next "ground to protect"
+
+	page "itself from its"
+	next "own high voltage"
+	next "power"
+	dex
+
 _GrowlitheDexEntry::
 	text "Very protective"
 	next "of its territory."
@@ -466,6 +486,16 @@ _GolemDexEntry::
 	page "easily withstand"
 	next "dynamite blasts"
 	next "without damage"
+	dex
+
+_RaikaenchuDexEntry::
+	text "Its long tail"
+	next "serves as a"
+	next "ground to protect"
+
+	page "itself from its"
+	next "own high voltage"
+	next "power"
 	dex
 
 _MagmarDexEntry::
@@ -1249,13 +1279,13 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Bulbasaur were"
+	next "wiped out by the"
+	next "comet. All thats"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "left are the"
+	next "petrified remains"
+	next "of these #MON"
 	dex
 
 _VenusaurDexEntry::
@@ -1414,7 +1444,7 @@ _SquirtleDexEntry::
 	next "hardens into a"
 
 	page "shell. Powerfully"
-	next "sprays foam from"
+	next "sprays fire from"
 	next "its mouth"
 	dex
 

@@ -33,14 +33,14 @@ _OaksLabYouWantCharmanderText::
 
 _OaksLabYouWantSquirtleText::
 	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	line "fire #MON,"
+	cont "HURTLE?"
 	done
 
 _OaksLabYouWantBulbasaurText::
 	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	line "petrified #MON,"
+	cont "PETRABULB?"
 	done
 
 _OaksLabMonEnergeticText::
