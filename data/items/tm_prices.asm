@@ -51,4 +51,8 @@ TechnicalMachinePrices:
 	nybble 4 ; TM48
 	nybble 4 ; TM49
 	nybble 2 ; TM50
+	nybble 3 ; TM51
+	nybble 4 ; TM52
+	nybble 4 ; TM53
+	nybble 4 ; TM54
 	end_nybble_array NUM_TMS
