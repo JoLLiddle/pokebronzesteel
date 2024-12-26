@@ -299,23 +299,23 @@ _TangelaDexEntry::
 	dex
 
 _RaimizuchuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Charged by water"
+	next "stone. It creates"
+	next "puddles of water"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "before shocking"
+	next "them and anything"
+	next "inside."
 	dex
 
 	_RaikusachuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Charge by leaf"
+	next "stone. It bursts"
+	next "with life energy."
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "Its tail sways"
+	next "with vines that"
+	next "strike like light"
 	dex
 
 _GrowlitheDexEntry::
@@ -489,13 +489,13 @@ _GolemDexEntry::
 	dex
 
 _RaikaenchuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "Charged by fire"
+	next "stone. Its fur"
+	next "sparks and causes"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "flames to burst"
+	next "forth. Leaving,"
+	next "ash in its trail."
 	dex
 
 _MagmarDexEntry::
@@ -506,6 +506,16 @@ _MagmarDexEntry::
 	page "enables it to"
 	next "hide perfectly"
 	next "among flames"
+	dex
+
+_EspeonDexEntry::
+	text "The tip of its"
+	next "forked tail"
+	next "quivers when it is"
+
+	page "predicting its"
+	next "opponents next"
+	next "move."
 	dex
 
 _ElectabuzzDexEntry::
@@ -536,6 +546,16 @@ _KoffingDexEntry::
 	page "its body, it is"
 	next "prone to exploding"
 	next "without warning"
+	dex
+
+_UmbreonDexEntry::
+	text "On the night of a"
+	next "full moon, or when"
+	next "it gets excited,"
+
+	page "the ring patterns"
+	next "on its body glow"
+	next "yellow."
 	dex
 
 _MankeyDexEntry::
@@ -576,6 +596,16 @@ _TaurosDexEntry::
 	page "while whipping its"
 	next "body with its"
 	next "long tails"
+	dex
+
+_AuroreonDexEntry::
+	text "Born from Arceus,"
+	next "it glows with"
+	next "starlight. Its"
+
+	page "power calms the"
+	next "dark and guides"
+	next "lost souls."
 	dex
 
 _FarfetchdDexEntry::

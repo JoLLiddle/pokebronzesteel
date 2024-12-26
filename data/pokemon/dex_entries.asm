@@ -51,16 +51,16 @@ PokedexEntryPointers:
 	dw GolemDexEntry
 	dw RaikaenchuDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw EspeonDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw UmbreonDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
 	dw TaurosDexEntry
-	dw MissingNoDexEntry
+	dw AuroreonDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw FarfetchdDexEntry
@@ -554,6 +554,13 @@ MagmarDexEntry:
 	text_far _MagmarDexEntry
 	text_end
 
+EspeonDexEntry:
+	db "SUN@"
+	db 2,11
+	dw 584
+	text_far _EspeonDexEntry
+	text_end
+
 ElectabuzzDexEntry:
 	db "ELECTRIC@"
 	db 3,7
@@ -573,6 +580,13 @@ KoffingDexEntry:
 	db 2,0
 	dw 20
 	text_far _KoffingDexEntry
+	text_end
+
+UmbreonDexEntry:
+	db "NIGHT@"
+	db 3,3
+	dw 595
+	text_far _UmbreonDexEntry
 	text_end
 
 MankeyDexEntry:
@@ -601,6 +615,13 @@ TaurosDexEntry:
 	db 4,7
 	dw 1950
 	text_far _TaurosDexEntry
+	text_end
+
+AuroreonDexEntry:
+	db "CELESTIAL@"
+	db 2,5
+	dw 450
+	text_far _AuroreonDexEntry
 	text_end
 
 FarfetchdDexEntry:

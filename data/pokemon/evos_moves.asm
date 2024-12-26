@@ -61,16 +61,16 @@ EvosMovesPointerTable:
 	dw GolemEvosMoves
 	dw RaikaenchuEvosMoves
 	dw MagmarEvosMoves
-	dw MissingNo34EvosMoves
+	dw EspeonEvosMoves
 	dw ElectabuzzEvosMoves
 	dw MagnetonEvosMoves
 	dw KoffingEvosMoves
-	dw MissingNo38EvosMoves
+	dw UmbronEvosMoves
 	dw MankeyEvosMoves
 	dw SeelEvosMoves
 	dw DiglettEvosMoves
 	dw TaurosEvosMoves
-	dw MissingNo3DEvosMoves
+	dw AuroreonEvosMoves
 	dw MissingNo3EEvosMoves
 	dw MissingNo3FEvosMoves
 	dw FarfetchdEvosMoves
@@ -779,8 +779,8 @@ MagmarEvosMoves:
 	db 55, FLAMETHROWER
 	db 0
 
-MissingNo34EvosMoves:
-; Evolutions
+EspeonEvosMoves:
+	; Evolutions
 	db 0
 ; Learnset
 	db 0
@@ -820,7 +820,7 @@ KoffingEvosMoves:
 	db 48, EXPLOSION
 	db 0
 
-MissingNo38EvosMoves:
+UmbronEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -873,7 +873,7 @@ TaurosEvosMoves:
 	db 51, TAKE_DOWN
 	db 0
 
-MissingNo3DEvosMoves:
+AuroreonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1257,6 +1257,7 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
+	db EVOLVE_LEVEL, 50, AUROREON
 	db 0
 ; Learnset
 	db 27, QUICK_ATTACK

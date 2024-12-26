@@ -58,16 +58,16 @@
 	const GOLEM              ; $31
 	const RAIKAENCHU         ; $32
 	const MAGMAR             ; $33
-	const_skip               ; $34
+	const ESPEON             ; $34
 	const ELECTABUZZ         ; $35
 	const MAGNETON           ; $36
 	const KOFFING            ; $37
-	const_skip               ; $38
+	const UMBREON            ; $38
 	const MANKEY             ; $39
 	const SEEL               ; $3A
 	const DIGLETT            ; $3B
 	const TAUROS             ; $3C
-	const_skip               ; $3D
+	const AUROREON           ; $3D
 	const_skip               ; $3E
 	const_skip               ; $3F
 	const FARFETCHD          ; $40
