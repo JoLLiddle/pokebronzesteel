@@ -7,8 +7,8 @@
 	db 255 ; catch rate
 	db 92 ; base exp
 
-	INCBIN "gfx/pokemon/front/eevee.pic", 0, 1 ; sprite dimensions
-	dw EeveePicFront, EeveePicBack
+	INCBIN "gfx/pokemon/front/auroreon.pic", 0, 1 ; sprite dimensions
+	dw AuroreonPicFront, AuroreonPicBack
 
 	db TACKLE, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
@@ -19,5 +19,5 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
-	db BANK(EeveePicFront)
-	assert BANK(EeveePicFront) == BANK(EeveePicBack)
+	db BANK(AuroreonPicFront)
+	assert BANK(AuroreonPicFront) == BANK(AuroreonPicBack)
