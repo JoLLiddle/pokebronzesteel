@@ -11,7 +11,7 @@ MonPartyData:
 	nybble ICON_WATER     ; Blastoise
 	nybble ICON_BUG       ; Caterpie
 	nybble ICON_BUG       ; Metapod
-	nybble ICON_BUG       ; Butterfree
+	nybble ICON_BUG       ; Venomoth
 	nybble ICON_BUG       ; Weedle
 	nybble ICON_BUG       ; Kakuna
 	nybble ICON_BUG       ; Beedrill
@@ -51,7 +51,7 @@ MonPartyData:
 	nybble ICON_BUG       ; Paras
 	nybble ICON_BUG       ; Parasect
 	nybble ICON_BUG       ; Venonat
-	nybble ICON_BUG       ; Venomoth
+	nybble ICON_BUG       ; Butterfree
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth

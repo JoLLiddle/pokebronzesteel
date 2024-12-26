@@ -904,7 +904,7 @@ FarfetchdEvosMoves:
 
 VenonatEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 31, VENOMOTH
+	db EVOLVE_LEVEL, 31, BUTTERFREE
 	db 0
 ; Learnset
 	db 24, POISONPOWDER
@@ -1487,7 +1487,7 @@ CaterpieEvosMoves:
 
 MetapodEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 10, BUTTERFREE
+	db EVOLVE_LEVEL, 10, VENOMOTH
 	db 0
 ; Learnset
 	db 0

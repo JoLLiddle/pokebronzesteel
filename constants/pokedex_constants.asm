@@ -15,7 +15,7 @@
 	const DEX_BLASTOISE  ; 9
 	const DEX_CATERPIE   ; 10
 	const DEX_METAPOD    ; 11
-	const DEX_BUTTERFREE ; 12
+	const DEX_VENOMOTH   ; 12
 	const DEX_WEEDLE     ; 13
 	const DEX_KAKUNA     ; 14
 	const DEX_BEEDRILL   ; 15
@@ -55,7 +55,7 @@
 	const DEX_PARAS      ; 49
 	const DEX_PARASECT   ; 50
 	const DEX_VENONAT    ; 51 INCORRECT NUMBERS FROM HERE
-	const DEX_VENOMOTH   ; 52
+	const DEX_BUTTERFREE ; 52
 	const DEX_DIGLETT    ; 53
 	const DEX_DUGTRIO    ; 54
 	const DEX_MEOWTH     ; 55
