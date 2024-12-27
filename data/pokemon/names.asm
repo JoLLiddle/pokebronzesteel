@@ -95,7 +95,7 @@ MonsterNames::
 	db "CORALORD@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "CHITISHREW"
+	db "CHITISTEEL"
 	db "CARAPLASH@"
 	db "OMENYTE@@@"
 	db "OMENCRAWL@"

@@ -1,21 +1,21 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+	text "Armor made of"
+	next "stone. Its pointed"
+	next "horn helps to"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "channel lightning."
+	next "Together, it is"
+	next "unstoppable"
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "Fiercly protective"
+	next "of its young. This"
+	next "#MON will fight"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "any who come near."
+	next "Almost as feared"
+	next "as drop bears"
 	dex
 
 _NidoranMDexEntry::
@@ -25,7 +25,7 @@ _NidoranMDexEntry::
 
 	page "horns, the more"
 	next "powerful its"
-	next "secreted venom"
+	next "attacks are"
 	dex
 
 _ClefairyDexEntry::
@@ -49,12 +49,12 @@ _SpearowDexEntry::
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
+	text "Found in every"
+	next "part of the world."
 	next "Easily mistaken"
 
 	page "for a # BALL,"
-	next "they have zapped"
+	next "they have startled"
 	next "many people"
 	dex
 
@@ -69,7 +69,7 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
+	text "The RUSTCLAMP that"
 	next "is latched onto"
 	next "SLOWPOKE's tail"
 
@@ -119,33 +119,33 @@ _ExeggcuteDexEntry::
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+	text "Appears near"
+	next "volcanoes. Thrives"
+	next "by sucking up"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "magma as it meets"
+	next "the ocean. Known"
+	next "to cause burns"
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
+	text "This #MON is"
+	next "not well known."
+	next "Some say it forms"
 
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	page "near volcano peaks"
+	next "where there are"
+	next "deadly gasses"
 	dex
 
 _NidoranFDexEntry::
 	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+	next "its parents"
+	next "make it a"
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "dangerous #MON"
+	next "to try catch. If"
+	next "it cries out, run"
 	dex
 
 _NidoqueenDexEntry::
@@ -185,7 +185,7 @@ _LaprasDexEntry::
 
 	page "extinction. It"
 	next "can ferry people"
-	next "across the water"
+	next "through the air"
 	dex
 
 _ArcanineDexEntry::
@@ -229,13 +229,13 @@ _ShellderDexEntry::
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+	text "Drifts through the"
+	next "woods. People who"
+	next "step on its vines"
 
-	page "accident are"
+	page "by accident are"
 	next "often punished by"
-	next "its stinging acid"
+	next "its whip attacks"
 	dex
 
 _GastlyDexEntry::
@@ -270,12 +270,12 @@ _StaryuDexEntry::
 
 _BlastoiseDexEntry::
 	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	next "with gigantic"
+	next "flamethrowers on"
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "its shell. They"
+	next "are known to"
+	next "attack recklessly"
 	dex
 
 _PinsirDexEntry::
@@ -290,11 +290,11 @@ _PinsirDexEntry::
 
 _TangelaDexEntry::
 	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+	next "a criss cross of"
+	next "eels, looking "
 
 	page "similar to sea-"
-	next "weed. Its vines"
+	next "weed. Its body"
 	next "shake as it walks"
 	dex
 
@@ -330,12 +330,12 @@ _GrowlitheDexEntry::
 
 _OnixDexEntry::
 	text "As it grows, the"
-	next "stone portions of"
+	next "ice portions of"
 	next "its body harden"
 
 	page "to become similar"
 	next "to a diamond, but"
-	next "colored black"
+	next "pale blue"
 	dex
 
 _FearowDexEntry::
@@ -350,12 +350,12 @@ _FearowDexEntry::
 
 _PidgeyDexEntry::
 	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	next "near large trees."
+	next "It swoops down"
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "to near ground"
+	next "level to zap"
+	next "passersby"
 	dex
 
 _SlowpokeDexEntry::
@@ -369,13 +369,13 @@ _SlowpokeDexEntry::
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
+	text "Practiced in the"
+	next "ancient martial"
+	next "arts and armed"
 
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	page "with a spoon, this"
+	next "#MON should not"
+	next "be underestimated"
 	dex
 
 _GravelerDexEntry::
@@ -409,13 +409,13 @@ _MachokeDexEntry::
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "If spotted in"
+	next "the wild, it will"
+	next "follow the"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "offender and"
+	next "haunt them until"
+	next "they go insane"
 	dex
 
 _HitmonleeDexEntry::
@@ -454,7 +454,7 @@ _ParasectDexEntry::
 	next "parasite mushroom"
 
 	page "has taken over the"
-	next "host bug. Prefers"
+	next "host crab. Prefers"
 	next "damp places"
 	dex
 
@@ -464,28 +464,28 @@ _PsyduckDexEntry::
 	next "vacant look, this"
 
 	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	next "lay a smackdown"
+	next "when its close"
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+	text "Eats sand in"
+	next "order to stay"
+	next "strong."
 
-	page "Occasionally gets"
+	page "Frequently gets"
 	next "sick from eating"
-	next "bad dreams"
+	next "pollution"
 	dex
 
 _GolemDexEntry::
 	text "Its boulder-like"
 	next "body is extremely"
-	next "hard. It can"
+	next "soft. It can"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "easily exceed"
+	next "the temperature of"
+	next "a dynamite blast"
 	dex
 
 _RaikaenchuDexEntry::
@@ -499,13 +499,13 @@ _RaikaenchuDexEntry::
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Its body absorbs"
+	next "light from around"
+	next "it. This ability"
 
 	page "enables it to"
 	next "hide perfectly"
-	next "among flames"
+	next "in the night"
 	dex
 
 _EspeonDexEntry::
@@ -520,12 +520,12 @@ _EspeonDexEntry::
 
 _ElectabuzzDexEntry::
 	text "Normally found"
-	next "near power plants,"
+	next "near tall grass,"
 	next "they can wander"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "around and cause"
+	next "trouble around"
+	next "the place"
 	dex
 
 _MagnetonDexEntry::
@@ -534,23 +534,23 @@ _MagnetonDexEntry::
 	next "together. They"
 
 	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	next "when other fairy"
+	next "#MON are near"
 	dex
 
 _KoffingDexEntry::
 	text "Because it stores"
 	next "several kinds of"
-	next "toxic gases in"
+	next "plant spores in"
 
 	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	next "prone to causing"
+	next "allergies"
 	dex
 
 _UmbreonDexEntry::
 	text "On the night of a"
-	next "full moon, or when"
+	next "new moon, or when"
 	next "it gets excited,"
 
 	page "the ring patterns"
@@ -580,7 +580,7 @@ _SeelDexEntry::
 
 _DiglettDexEntry::
 	text "Lives about one"
-	next "yard underground"
+	next "foot underground"
 	next "where it feeds on"
 
 	page "plant roots. It"
@@ -595,7 +595,7 @@ _TaurosDexEntry::
 
 	page "while whipping its"
 	next "body with its"
-	next "long tails"
+	next "fiery tails"
 	dex
 
 _AuroreonDexEntry::
@@ -619,19 +619,19 @@ _FarfetchdDexEntry::
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
+	text "Rare to be seen."
+	next "It comes out of"
+	next "hiding to"
 
 	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	next "is afraid"
+	next "fire at night"
 	dex
 
 _DragoniteDexEntry::
 	text "An extremely"
 	next "rarely seen"
-	next "marine #MON."
+	next "fairy #MON."
 
 	page "Its intelligence"
 	next "is said to match"
@@ -654,8 +654,8 @@ _PoliwagDexEntry::
 	next "from running. It"
 
 	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	next "to make others"
+	next "carry it"
 	dex
 
 _JynxDexEntry::
@@ -664,18 +664,18 @@ _JynxDexEntry::
 	next "as it walks. It"
 
 	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	next "to wander off into"
+	next "dangerous places"
 	dex
 
 _MoltresDexEntry::
 	text "Known as the"
 	next "legendary bird of"
-	next "fire. Every flap"
+	next "air. Every flap"
 
 	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	next "draws in smoke"
+	next "and toxins"
 	dex
 
 _ArticunoDexEntry::
@@ -684,38 +684,38 @@ _ArticunoDexEntry::
 	next "said to appear to"
 
 	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	next "are lost deserts"
+	next "and icy mountains"
 	dex
 
 _ZapdosDexEntry::
 	text "A legendary bird"
 	next "#MON that is"
-	next "said to appear"
+	next "said to darken"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "bright days and"
+	next "bring light to"
+	next "the darkest days"
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Made up of unstable"
+	next "space goo. This"
+	next "fairy #MON"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "can learn a wide"
+	next "range of moves"
+	next "of varying types"
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
+	text "Ancient statues"
+	next "are all that"
+	next "remain of MEOWTH"
 
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	page "from before the"
+	next "comet. Luckily"
+	next "they came alive"
 	dex
 
 _KrabbyDexEntry::
