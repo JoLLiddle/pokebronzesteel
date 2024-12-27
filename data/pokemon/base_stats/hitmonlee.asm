@@ -3,7 +3,7 @@
 	db  50, 120,  53,  87,  35
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, DARK ; type
 	db 45 ; catch rate
 	db 139 ; base exp
 

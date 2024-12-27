@@ -3,7 +3,7 @@
 	db  40,  45,  35,  90,  40
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db GHOST, ROCK ; type
 	db 255 ; catch rate
 	db 69 ; base exp
 

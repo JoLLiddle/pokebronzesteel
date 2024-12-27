@@ -3,7 +3,7 @@
 	db  40,  35,  30,  50,  20
 	;   hp  atk  def  spd  spc
 
-	db BUG, POISON ; type
+	db BUG, ELECTRIC ; type
 	db 255 ; catch rate
 	db 52 ; base exp
 

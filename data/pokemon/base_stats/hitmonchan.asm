@@ -3,7 +3,7 @@
 	db  50, 105,  79,  76,  35
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, MOON ; type
 	db 45 ; catch rate
 	db 140 ; base exp
 
