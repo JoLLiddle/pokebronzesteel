@@ -130,7 +130,7 @@ MonsterNames::
 	db "FOWLFIST@@"
 	db "PENDARK@@@"
 	db "PHANPIRE@@"
-	db "MEWTWO@@@@"
+	db "MEWTHREE@@"
 	db "NIGHTTIME@"
 	db "ALPHAKARP@"
 	db "MISSINGNO."
