@@ -1,27 +1,23 @@
 Route22WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  3, RATTATA
+	db  3, ELECTABUZZ
+	db  3, WEEDLE
+	db  4, ELECTABUZZ
+	db  3, EEVEE
+	db  3, PIKACHU
 IF DEF(_RED)
-	db  3, NIDORAN_M
-	db  4, RATTATA
-	db  4, NIDORAN_M
-	db  2, RATTATA
-	db  2, NIDORAN_M
-	db  3, SPEAROW
-	db  5, SPEAROW
-	db  3, NIDORAN_F
-	db  4, NIDORAN_F
+	db  4, WEEDLE
+	db  3, PIKACHU
+	db  4, PIKACHU
+	db  5, ELECTABUZZ
+	db  5, PIKACHU
 ENDC
 IF DEF(_BLUE)
-	db  3, NIDORAN_F
-	db  4, RATTATA
-	db  4, NIDORAN_F
-	db  2, RATTATA
-	db  2, NIDORAN_F
-	db  3, SPEAROW
-	db  5, SPEAROW
-	db  3, NIDORAN_M
-	db  4, NIDORAN_M
+	db  4, WEEDLE
+	db  3, EEVEE
+	db  4, EEVEE
+	db  5, ELECTABUZZ
+	db  5, EEVEE
 ENDC
 	end_grass_wildmons
 

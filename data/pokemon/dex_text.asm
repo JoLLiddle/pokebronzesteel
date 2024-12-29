@@ -15,7 +15,7 @@ _KangaskhanDexEntry::
 
 	page "any who come near."
 	next "Almost as feared"
-	next "as drop bears"
+	next "as DROPBEARS"
 	dex
 
 _NidoranMDexEntry::
@@ -94,8 +94,8 @@ _ExeggutorDexEntry::
 	next "one of its heads"
 
 	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	next "continue on as a"
+	next "HATCHLING"
 	dex
 
 _LickitungDexEntry::
@@ -350,7 +350,7 @@ _FearowDexEntry::
 
 _PidgeyDexEntry::
 	text "A common sight in"
-	next "near large trees."
+	next "large trees."
 	next "It swoops down"
 
 	page "to near ground"

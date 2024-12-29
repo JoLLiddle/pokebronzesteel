@@ -4,12 +4,12 @@ MtMoon1FWildMons:
 	db  7, ZUBAT
 	db  9, ZUBAT
 	db  8, GEODUDE
-	db  6, ZUBAT
+	db  6, GEODUDE
 	db 10, ZUBAT
 	db 10, GEODUDE
-	db  8, PARAS
+	db  8, EKANS
 	db 11, ZUBAT
-	db  8, CLEFAIRY
+	db  9, EKANS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

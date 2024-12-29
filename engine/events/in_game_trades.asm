@@ -108,7 +108,7 @@ InGameTrade_DoTrade:
 	ld bc, wPartyMon2 - wPartyMon1
 	call AddNTimes
 	ld a, [hl]
-	ld [wCurEnemyLevel], a
+	ld [wCurEnemyLevel], a ; enemy level is set here for trade?
 	ld hl, wCompletedInGameTradeFlags
 	ld a, [wWhichTrade]
 	ld c, a
