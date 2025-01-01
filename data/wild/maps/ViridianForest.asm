@@ -1,9 +1,9 @@
 ViridianForestWildMons:
 	def_grass_wildmons 8 ; encounter rate
-  db 4, CATERPIE
 	db 4, WEEDLE
-	db 4, TENTACOOL
 IF DEF(_RED)
+  db  4, TENTACOOL
+	db  4, WEEDLE
 	db  5, WEEDLE
 	db  6, KAKUNA
 	db  7, KAKUNA
@@ -11,6 +11,8 @@ IF DEF(_RED)
 	db  6, TENTACOOL
 ENDC
 IF DEF(_BLUE)
+  db  4, CATERPIE
+ 	db  4, WEEDLE
 	db  5, WEEDLE
 	db  6, KAKUNA
 	db  7, KAKUNA

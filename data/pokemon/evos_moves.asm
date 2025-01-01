@@ -265,7 +265,7 @@ SpearowEvosMoves:
 
 VoltorbEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 30, ELECTRODE
+	db EVOLVE_LEVEL, 28, ELECTRODE
 	db 0
 ; Learnset
 	db 17, SONICBOOM

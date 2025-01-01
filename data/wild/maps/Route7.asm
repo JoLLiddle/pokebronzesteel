@@ -1,28 +1,27 @@
 Route7WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 19, PIDGEY
+	db 19, KOFFING
 IF DEF(_RED)
-	db 19, ODDISH
-	db 17, MANKEY
-	db 22, ODDISH
-	db 22, PIDGEY
-	db 18, MANKEY
-	db 18, GROWLITHE
-	db 20, GROWLITHE
-	db 19, MANKEY
-	db 20, MANKEY
+	db 19, TENTACOOL
+	db 17, BELLSPROUT
+	db 22, OMANYTE
+	db 22, KOFFING
+	db 18, KOFFING
+	db 18, TENTACOOL
+	db 20, BELLSPROUT
+	db 19, OMANYTE
 ENDC
 IF DEF(_BLUE)
-	db 19, BELLSPROUT
-	db 17, MEOWTH
-	db 22, BELLSPROUT
-	db 22, PIDGEY
-	db 18, MEOWTH
-	db 18, VULPIX
-	db 20, VULPIX
-	db 19, MEOWTH
-	db 20, MEOWTH
+	db 19, METAPOD
+	db 17, BELLSPROUT
+	db 22, ODDISH
+	db 22, KOFFING
+	db 18, KOFFING
+	db 18, METAPOD
+	db 20, BELLSPROUT
+	db 19, ODDISH
 ENDC
+	db 20, SCYTHER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

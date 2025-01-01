@@ -1,7 +1,7 @@
 RockTunnelB1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 16, MAGMAR
-	db 17, ZUBAT
+	db 17, EKANS
 	db 17, GEODUDE
 IF DEF(_RED)
   db 15, ABRA
@@ -15,9 +15,9 @@ IF DEF(_BLUE)
 	db 17, MAGMAR
 	db 17, MACHOP
 ENDC
-  db 17, ZUBAT
+  db 17, EKANS
 	db 18, MAGMAR
-	db 18, ZUBAT
+	db 18, EKANS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
