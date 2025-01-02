@@ -1,29 +1,36 @@
 SeafoamIslandsB4FWildMons:
 	def_grass_wildmons 10 ; encounter rate
+	db 32, JIGGLYPUFF
 IF DEF(_RED)
-	db 31, HORSEA
-	db 31, SHELLDER
-	db 33, HORSEA
-	db 33, SHELLDER
-	db 29, SLOWPOKE
-	db 31, SEEL
-	db 31, SLOWPOKE
-	db 29, SEEL
-	db 39, SLOWBRO
+	db 30, ONIX
+	db 31, HAUNTER
+	db 34, ONIX
+	db 32, TANGELA
+	db 40, WIGGLYTUFF
+	db 38, HAUNTER
 ENDC
 IF DEF(_BLUE)
-	db 31, KRABBY
-	db 31, STARYU
-	db 33, KRABBY
-	db 33, STARYU
-	db 29, PSYDUCK
-	db 31, SEEL
-	db 31, PSYDUCK
-	db 29, SEEL
-	db 39, GOLDUCK
+	db 30, ONIX
+	db 31, DODUO
+	db 34, ONIX
+	db 32, TANGELA
+	db 40, JIGGLYPUFF
+	db 38, DODUO
 ENDC
-	db 32, GOLBAT
+	db 31, WIGGLYTUFF
+	db 37, TANGELA
+	db 43, ONIX
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+  def_water_wildmons 5 ; encounter rate
+	db  5, SEEL
+	db 10, SHELLDER
+	db 15, SEEL
+	db 10, SHELLDER
+	db 20, SEEL
+	db 20, SEEL
+	db 10, SHELLDER
+	db 20, SHELLDER
+	db 25, SHELLDER
+	db 35, DEWGONG
 	end_water_wildmons

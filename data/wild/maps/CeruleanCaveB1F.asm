@@ -1,19 +1,19 @@
 CeruleanCaveB1FWildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 55, RHYDON
-	db 55, MAROWAK
+	db 55, CHANSEY
 	db 55, ELECTRODE
+	db 56, ELECTRODE
 	db 64, CHANSEY
-	db 64, PARASECT
-	db 64, RAICHU
+	db 63, STARMIE
+	db 64, STARMIE
 IF DEF(_RED)
-	db 57, ARBOK
+	db 57, HYPNO
 ENDC
 IF DEF(_BLUE)
-	db 57, SANDSLASH
+	db 57, SLOWBRO
 ENDC
-	db 65, DITTO
-	db 63, DITTO
+	db 65, CHANSEY
+	db 66, RHYDON
 	db 67, DITTO
 	end_grass_wildmons
 

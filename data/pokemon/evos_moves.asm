@@ -218,11 +218,14 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, BITE
+  db 20, DOUBLE_KICK
+	db 26, JUMP_KICK
 	db 31, TAIL_WHIP
 	db 36, MEGA_PUNCH
 	db 41, LEER
 	db 46, DIZZY_PUNCH
+	db 52, MEGA_KICK
+	db 60, EARTHQUAKE
 	db 0
 
 NidoranMEvosMoves:
@@ -230,12 +233,15 @@ NidoranMEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 21, FOCUS_ENERGY
-	db 29, FURY_ATTACK
-	db 36, HORN_DRILL
-	db 43, DOUBLE_KICK
+	db  4, HORN_ATTACK
+	db  9, MOON_RAY
+	db 14, FOCUS_ENERGY
+	db 21, AURORA_BEAM
+	db 29, HORN_DRILL
+	db 36, MOON_TOUCH
+	db 40, DOUBLE_KICK
+	db 45, DRAGON_CLAW
+	db 54, MOONBLAST
 	db 0
 
 ClefairyEvosMoves:
@@ -243,12 +249,16 @@ ClefairyEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 13, SING
-	db 18, DOUBLESLAP
-	db 24, MINIMIZE
+	db  5, POUND
+	db  9, CHARM
+	db 14, FAIRY_WIND
+	db 21, MINIMIZE
+	db 27, DRAININGKISS
 	db 31, METRONOME
+	db 34, DAZZLE
 	db 39, DEFENSE_CURL
 	db 48, LIGHT_SCREEN
+	db 53, PLAY_ROUGH
 	db 0
 
 SpearowEvosMoves:
@@ -256,11 +266,13 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
+	db 5, LEER
+	db 7, PECK
+	db 15, PURSUIT
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
 	db 36, AGILITY
+	db 48, FOUL_PLAY
 	db 0
 
 VoltorbEvosMoves:
