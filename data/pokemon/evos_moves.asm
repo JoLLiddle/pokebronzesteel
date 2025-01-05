@@ -234,7 +234,7 @@ NidoranMEvosMoves:
 	db 0
 ; Learnset
 	db  4, HORN_ATTACK
-	db  9, MOON_RAY
+	db  7, MOON_RAY
 	db 14, FOCUS_ENERGY
 	db 21, AURORA_BEAM
 	db 29, HORN_DRILL
@@ -250,11 +250,11 @@ ClefairyEvosMoves:
 	db 0
 ; Learnset
 	db  5, POUND
-	db  9, CHARM
-	db 14, FAIRY_WIND
-	db 21, MINIMIZE
-	db 27, DRAININGKISS
-	db 31, METRONOME
+	db  7, CHARM
+	db 10, FAIRY_WIND
+	db 17, MINIMIZE
+	db 23, DRAININGKISS
+	db 29, METRONOME
 	db 34, DAZZLE
 	db 39, DEFENSE_CURL
 	db 48, LIGHT_SCREEN
@@ -266,8 +266,8 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 5, LEER
-	db 7, PECK
+	db 2, LEER
+	db 3, PECK
 	db 15, PURSUIT
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
@@ -280,11 +280,15 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 28, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
+  db  2, TACKLE
+	db  4, GROWL
+	db 12, SONICBOOM
+	db 19, THRASH
+	db 22, MIRROR_SHOT
+	db 26, BIDE
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
-	db 43, EXPLOSION
+	db 43, IRON_HEAD
 	db 0
 
 NidokingEvosMoves:
