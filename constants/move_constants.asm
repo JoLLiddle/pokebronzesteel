@@ -215,7 +215,11 @@
 	const POWDER_SNOW  ; cf
 	const GLACIATE     ; d0
 	const ICE_SPEARS   ; d1
-	const STRUGGLE     ; d2
+	const ERRUPT       ; d2
+	const ARTHOLD      ; d3
+	const ZAPHOLD      ; d4
+	const MOLHOLD      ; d5
+	const STRUGGLE     ; d6
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;last move register is roughly da, so only a few extra spare

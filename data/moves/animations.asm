@@ -209,6 +209,10 @@ AttackAnimationPointers:
 	dw PowderSnowAnim
 	dw GlaciateAnim
 	dw IceSpearsAnim
+	dw ErruptAnim
+	dw ArtAnim
+	dw ZapAnim
+	dw MolAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -277,6 +281,9 @@ ZigZagScreenAnim:
 	battle_anim NO_MOVE, SE_WAVY_SCREEN
 	db -1 ; end
 
+ArtAnim:
+ZapAnim:
+MolAnim:
 PoundAnim:
 StruggleAnim:
 	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
@@ -1153,6 +1160,7 @@ CrabHammerAnim:
 	battle_anim NO_MOVE, SUBANIM_0_SLICE_BOTH_SIDES, 0, 6
 	db -1 ; end
 
+ErruptAnim:
 ExplosionAnim:
 	battle_anim EXPLOSION, SUBANIM_1_SELFDESTRUCT, 1, 3
 	db -1 ; end

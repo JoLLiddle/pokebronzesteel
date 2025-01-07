@@ -135,9 +135,9 @@ Moves:
 	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
-	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
+	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GHOST,        85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
+	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,       100, 15
@@ -165,7 +165,7 @@ Moves:
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,         85, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        80, 15
-	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
+	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GHOST,        90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
 	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
@@ -220,5 +220,9 @@ Moves:
 	move POWDER_SNOW,  FREEZE_SIDE_EFFECT1,         40, ICE,          100, 25
 	move GLACIATE,     SPEED_DOWN1_EFFECT,          65, ICE,           90, 10
 	move ICE_SPEARS,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           90, 15
+	move ERRUPT,       EXPLODE_EFFECT,             170, FIREWATER,    100,  5
+	move ARTHOLD,      NO_ADDITIONAL_EFFECT,         0, ICE,          100,  5
+	move ZAPHOLD,      NO_ADDITIONAL_EFFECT,         0, ELECTRIC,     100,  5
+	move MOLHOLD,      NO_ADDITIONAL_EFFECT,         0, FIRE,         100,  5
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

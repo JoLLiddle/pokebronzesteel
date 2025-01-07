@@ -209,5 +209,9 @@ MoveNames::
 	li "POWDER SNOW"
 	li "GLACIATE"
 	li "ICE SPEARS"
+	li "ERRUPT"
+	li "ARTHOLD"
+	li "ZAPHOLD"
+	li "MOLHOLD"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

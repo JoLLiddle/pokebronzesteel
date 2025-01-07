@@ -28,5 +28,6 @@ DEF SPECIAL EQU const_value
 	const STEEL        ; $1C
 	const FAIRY        ; $1D
 	const MOON         ; $1E
+	const FIREWATER    ; $1F
 
 DEF NUM_TYPES EQU const_value

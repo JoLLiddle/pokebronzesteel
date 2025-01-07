@@ -210,6 +210,10 @@ MoveSoundTable:
 	db SFX_BATTLE_29,          $00, $80 ; POWDER_SNOW (MIST)
 	db SFX_BATTLE_0D,          $20, $80 ; GLACIATE (ICE_PUNCH)
 	db SFX_BATTLE_1E,          $00, $60 ; ICE_SPEARS (HORN_ATTACK)
+	db SFX_BATTLE_34,          $10, $ff ; ERRUPT (EXPLOSION)
+	db SFX_POUND,              $00, $80 ; ARTICUNO PLACE HOLDER (POUND)
+	db SFX_POUND,              $00, $80 ; ZAPDOS PLACE HOLDER (POUND)
+	db SFX_POUND,              $00, $80 ; MOLTRES PLACE HOLDER (POUND)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

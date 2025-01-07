@@ -218,8 +218,6 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-  db 20, DOUBLE_KICK
-	db 26, JUMP_KICK
 	db 31, TAIL_WHIP
 	db 36, MEGA_PUNCH
 	db 41, LEER
@@ -233,8 +231,6 @@ NidoranMEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db  4, HORN_ATTACK
-	db  7, MOON_RAY
 	db 14, FOCUS_ENERGY
 	db 21, AURORA_BEAM
 	db 29, HORN_DRILL
@@ -249,8 +245,6 @@ ClefairyEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db  5, POUND
-	db  7, CHARM
 	db 10, FAIRY_WIND
 	db 17, MINIMIZE
 	db 23, DRAININGKISS
@@ -266,8 +260,6 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 2, LEER
-	db 3, PECK
 	db 15, PURSUIT
 	db 22, MIRROR_MOVE
 	db 29, DRILL_PECK
@@ -339,10 +331,14 @@ LickitungEvosMoves:
 	db 0
 ; Learnset
 	db 7, STOMP
+	db 12, LICK
 	db 15, DISABLE
-	db 23, DEFENSE_CURL
+	db 20, ACID
+	db 23, ACID_ARMOR
+	db 27, SLUDGE
 	db 31, SLAM
 	db 39, SCREECH
+	db 44, TOXIC
 	db 0
 
 ExeggcuteEvosMoves:
@@ -350,6 +346,10 @@ ExeggcuteEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
+  db  5, SCREECH
+	db 10, BARRAGE
+	db 12, DRAININGKISS
+	db 20, CHARM
 	db 25, REFLECT
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
@@ -360,15 +360,19 @@ ExeggcuteEvosMoves:
 
 GrimerEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 38, MUK
+	db EVOLVE_LEVEL, 32, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
+  db  4, LEER
+  db  8, EMBER
+	db 12, BUBBLE
+	db 18, WATER_GUN
+	db 30, FIRE_SPIN
 	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 37, WATERFALL
+	db 42, FIRE_PUNCH
+	db 48, FLAMETHROWER
+	db 55, ERRUPT
 	db 0
 
 GengarEvosMoves:
@@ -384,12 +388,15 @@ NidoranFEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
-	db 8, SCRATCH
-	db 14, POISON_STING
-	db 21, TAIL_WHIP
+	db  4, SCRATCH
+	db  8, MOON_RAY
+	db 14, TAIL_WHIP
+	db 21, AURORA_BEAM
 	db 29, BITE
-	db 36, FURY_SWIPES
-	db 43, DOUBLE_KICK
+	db 36, FIRE_SPIN
+	db 40, MOON_TOUCH
+	db 46, DOUBLE_KICK
+	db 54, MOONBLAST
 	db 0
 
 NidoqueenEvosMoves:
@@ -406,11 +413,15 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 25, LEER
+  db 10, TACKLE
+	db 12, SCREECH
+	db 17, ASTONISH
+	db 25, NIGHT_SHADE
 	db 31, FOCUS_ENERGY
-	db 38, THRASH
+	db 38, BAD_OMEN
 	db 43, BONEMERANG
-	db 46, RAGE
+	db 46, SHADOW_BALL
+	db 54, PHANTOM_HIT
 	db 0
 
 RhyhornEvosMoves:
@@ -1273,9 +1284,9 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
-	db EVOLVE_ITEM, DAY_STONE, 1, ESPEON
-	db EVOLVE_ITEM, NIGHT_STONE, 1, UMBREON
 	db EVOLVE_ITEM, MOON_STONE, 1, AUROREON
+	db EVOLVE_DARK, 25, UMBREON
+	db EVOLVE_LIGHT, 25, ESPEON
 	db 0
 ; Learnset
 	db 27, QUICK_ATTACK

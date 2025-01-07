@@ -26,6 +26,7 @@ ENDR
 	dw .Steel
 	dw .Fairy
 	dw .Moon
+	dw .Firewater
 
 	assert_table_length NUM_TYPES
 
@@ -49,3 +50,4 @@ ENDR
 .Steel     db "STEEL@"
 .Fairy     db "FAIRY@"
 .Moon      db "MOON@"
+.Firewater db "SCALDING@"

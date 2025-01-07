@@ -82,6 +82,10 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld a, b
 	cp EVOLVE_LEVEL
 	jr z, .checkLevel
+	cp EVOLVE_DARK
+	jr z, .checkEeveeDark
+	cp EVOLVE_LIGHT
+  jr z, .checkEeveeLight
 .checkTradeEvo
 	ld a, [wLinkState]
 	cp LINK_STATE_TRADING
@@ -98,6 +102,19 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld a, [wCurItem]
 	cp b ; was the evolution item in this entry used?
 	jp nz, .nextEvoEntry1 ; if not, go to the next evolution entry
+.checkEeveeDark
+  ld a, [wCurMap]
+	cp ROCK_TUNNEL_1F
+	jr z, .checkLevel
+	cp ROCK_TUNNEL_B1F
+	jr z, .checkLevel
+	jp .nextEvoEntry1
+.checkEeveeLight
+  ld a, [wCurMap]
+	cp ROCK_TUNNEL_1F
+	jp z, .nextEvoEntry1
+	cp ROCK_TUNNEL_B1F
+	jp z, .nextEvoEntry1
 .checkLevel
 	ld a, [hli] ; level requirement
 	ld b, a

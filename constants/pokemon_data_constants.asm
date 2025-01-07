@@ -82,6 +82,8 @@ DEF HOF_TEAM_CAPACITY EQU 50
 	const EVOLVE_LEVEL ; 1
 	const EVOLVE_ITEM  ; 2
 	const EVOLVE_TRADE ; 3
+	const EVOLVE_LIGHT ; 4
+	const EVOLVE_DARK  ; 5
 
 
 ; wMonHGrowthRate values
