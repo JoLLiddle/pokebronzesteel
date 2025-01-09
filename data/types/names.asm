@@ -27,6 +27,9 @@ ENDR
 	dw .Fairy
 	dw .Moon
 	dw .Firewater
+	dw .Toxifire
+	dw .Lumens
+	dw .Thermal
 
 	assert_table_length NUM_TYPES
 
@@ -47,7 +50,10 @@ ENDR
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
 .Dark:     db "DARK@"
-.Steel     db "STEEL@"
-.Fairy     db "FAIRY@"
-.Moon      db "MOON@"
-.Firewater db "SCALDING@"
+.Steel:    db "STEEL@"
+.Fairy:    db "FAIRY@"
+.Moon:     db "MOON@"
+.Firewater:db "SCALDING@"
+.Toxifire: db "Toxifire@"
+.Lumens:   db "Lumens@"
+.Thermal:  db "Thermal@"

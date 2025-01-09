@@ -216,10 +216,13 @@
 	const GLACIATE     ; d0
 	const ICE_SPEARS   ; d1
 	const ERRUPT       ; d2
-	const ARTHOLD      ; d3
-	const ZAPHOLD      ; d4
-	const MOLHOLD      ; d5
-	const STRUGGLE     ; d6
+	const WARMTH      ; d3
+	const LUMOUS      ; d4
+	const ACIDBURN     ; d5
+	const MUD_SLAP     ; d6
+	const MUD_SHOT     ; d7
+	const SAND_TOMB    ; d8
+	const STRUGGLE     ; d9
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;last move register is roughly da, so only a few extra spare

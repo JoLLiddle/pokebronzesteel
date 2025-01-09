@@ -210,9 +210,12 @@ AttackAnimationPointers:
 	dw GlaciateAnim
 	dw IceSpearsAnim
 	dw ErruptAnim
-	dw ArtAnim
-	dw ZapAnim
-	dw MolAnim
+	dw WarmthAnim
+	dw LumousAnim
+	dw AcidBurnAnim
+	dw MudSlapAnim
+	dw MudShotAnim
+	dw SandTombAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -283,7 +286,6 @@ ZigZagScreenAnim:
 
 ArtAnim:
 ZapAnim:
-MolAnim:
 PoundAnim:
 StruggleAnim:
 	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
@@ -552,6 +554,7 @@ DisableAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+MudShotAnim:
 AcidAnim:
 	battle_anim ACID, SUBANIM_1_BLOB_TOSS, 1, 6
 	battle_anim ACID, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
@@ -567,6 +570,7 @@ FlamethrowerAnim:
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_2, 1, 6
 	db -1 ; end
 
+SandTombAnim:
 PowderSnowAnim:
 InfestationAnim:
 MistAnim:
@@ -667,6 +671,7 @@ SeismicTossAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
+MudSlapAnim:
 OutrageAnim:
 IronTailAnim:
 StrengthAnim:
@@ -764,6 +769,7 @@ ThunderWaveAnim:
 	battle_anim NO_MOVE, SUBANIM_0_BIND, 0, 4
 	db -1 ; end
 
+LumousAnim:
 ThunderAnim:
 	battle_anim THUNDER, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
@@ -1454,3 +1460,16 @@ DracoMeteorAnim:
 	battle_anim NO_MOVE, SE_SHOW_ENEMY_MON_PIC
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
+
+AcidBurnAnim:
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim EMBER, SUBANIM_1_FLAMES, 1, 6
+	db -1 ; end
+
+WarmthAnim:
+	battle_anim FOCUS_ENERGY, SE_SPIRAL_BALLS_INWARD
+	battle_anim EMBER, SUBANIM_1_FLAMES, 1, 6
+	db -1 ; end
+

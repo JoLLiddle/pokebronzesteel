@@ -133,7 +133,7 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $1e, $20 ; SKULL_BASH
 	db SFX_BATTLE_26,          $1f, $18 ; SPIKE_CANNON
 	db SFX_BATTLE_14,          $0f, $80 ; CONSTRICT
-	db SFX_BATTLE_09,          $f8, $10 ; AMNESIA
+	db SFX_BATTLE_09,          $f8, $10 ; FOCUS (AMNESIA)
 	db SFX_FAINT_FALL,         $18, $20 ; KINESIS
 	db SFX_BATTLE_32,          $08, $40 ; SOFTBOILED
 	db SFX_BATTLE_17,          $01, $e0 ; HI_JUMP_KICK
@@ -211,9 +211,12 @@ MoveSoundTable:
 	db SFX_BATTLE_0D,          $20, $80 ; GLACIATE (ICE_PUNCH)
 	db SFX_BATTLE_1E,          $00, $60 ; ICE_SPEARS (HORN_ATTACK)
 	db SFX_BATTLE_34,          $10, $ff ; ERRUPT (EXPLOSION)
-	db SFX_POUND,              $00, $80 ; ARTICUNO PLACE HOLDER (POUND)
-	db SFX_POUND,              $00, $80 ; ZAPDOS PLACE HOLDER (POUND)
-	db SFX_POUND,              $00, $80 ; MOLTRES PLACE HOLDER (POUND)
+	db SFX_BATTLE_19,          $10, $a0 ; WARMTH (EMBER)
+	db SFX_BATTLE_26,          $00, $80 ; LUMOUS (THUNDER)
+	db SFX_BATTLE_29,          $00, $80 ; ACIDBURN (MIST)
+	db SFX_BATTLE_26,          $20, $40 ; MUD_SLAP (STRENGTH)
+	db SFX_BATTLE_2A,          $80, $c0 ; MUD_SHOT (ACID)
+	db SFX_BATTLE_29,          $00, $80 ; SAND_TOMB (MIST)
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

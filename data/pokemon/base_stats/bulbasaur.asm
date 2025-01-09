@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/bulbasaur.pic", 0, 1 ; sprite dimensions
 	dw BulbasaurPicFront, BulbasaurPicBack
 
-	db ASTONISH, TACKLE, GROWL, NO_MOVE ; level 1 learnset
+	db LICK, TACKLE, GROWL, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

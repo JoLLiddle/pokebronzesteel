@@ -29,5 +29,8 @@ DEF SPECIAL EQU const_value
 	const FAIRY        ; $1D
 	const MOON         ; $1E
 	const FIREWATER    ; $1F
+	const TOXIFIRE     ; $20
+	const LUMENS       ; $21
+	const THERMAL      ; $22
 
 DEF NUM_TYPES EQU const_value

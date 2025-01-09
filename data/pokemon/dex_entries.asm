@@ -527,7 +527,7 @@ PsyduckDexEntry:
 	text_end
 
 DrowzeeDexEntry:
-	db "MOLE@"
+	db "SLEEPSAND@"
 	db 3,3
 	dw 710
 	text_far _DrowzeeDexEntry
@@ -982,7 +982,7 @@ GolduckDexEntry:
 	text_end
 
 HypnoDexEntry:
-	db "HYPNOSIS@"
+	db "SLEEPSAND@"
 	db 5,3
 	dw 1670
 	text_far _HypnoDexEntry

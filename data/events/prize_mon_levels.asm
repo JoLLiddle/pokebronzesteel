@@ -1,19 +1,19 @@
 PrizeMonLevelDictionary:
 IF DEF(_RED)
-	db ABRA,      9
-	db CLEFAIRY,  8
+	db ABRA,     15
+	db CLEFAIRY, 12
 	db NIDORINA, 17
 
 	db LICKITUNG,18
 	db SCYTHER,  25
-	db PORYGON,  26
+	db PORYGON,  35
 ENDC
 IF DEF(_BLUE)
-	db MACHOP,    6
+	db MACHOP,   15
 	db CLEFAIRY, 12
 	db NIDORINO, 17
 
-	db LICKITUNG,20
-	db PINSIR,   24
-	db PORYGON,  18
+	db LICKITUNG,18
+	db PINSIR,   25
+	db PORYGON,  35
 ENDC

@@ -12,6 +12,8 @@ PhysicalToSpecialMoves:
 ; Bug
         db INFESTATION
         db BUG_BUZZ
+; Ground
+        db MUD_SHOT
 ; Rock
         db UR_STEIN
 ; Ghost
