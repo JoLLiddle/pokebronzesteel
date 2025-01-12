@@ -1,11 +1,11 @@
 	db DEX_PORYGON ; pokedex id
 
-	db  65,  60,  70,  40,  75
+	db  60,  80,  60,  140,  100
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, POISON ; type
 	db 45 ; catch rate
-	db 130 ; base exp
+	db 218 ; base exp
 
 	INCBIN "gfx/pokemon/front/porygon.pic", 0, 1 ; sprite dimensions
 	dw PorygonPicFront, PorygonPicBack
@@ -18,7 +18,7 @@
 	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(PorygonPicFront)

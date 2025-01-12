@@ -1,6 +1,6 @@
 	db DEX_CHARMELEON ; pokedex id
 
-	db  58,  64,  58,  80,  65
+	db  58,  72,  58,  82,  55
 	;   hp  atk  def  spd  spc
 
 	db ICE, DRAGON ; type
@@ -17,8 +17,9 @@
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH
+	     REFLECT,      BIDE,         BLIZZARD,     SWIFT,        SKULL_BASH,   \
+	     REST,         SUBSTITUTE,   CUT,          STRENGTH,     ICE_BEAM,     \
+			 METAL_CLAW,   PURSUIT
 	; end
 
 	db BANK(CharmeleonPicFront)

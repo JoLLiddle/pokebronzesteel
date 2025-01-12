@@ -5,12 +5,12 @@
 
 	db POISON, ICE ; type
 	db 45 ; catch rate
-	db 190 ; base exp
+	db 201 ; base exp
 
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack
 
-	db SLUDGE, HAZE, GLACIATE, SUPERSONIC ; level 1 learnset
+	db SLUDGE, HAZE, GLACIATE, SLEEP_POWDER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -19,7 +19,7 @@
 	     RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SELFDESTRUCT, \
 	     SKULL_BASH,   DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    \
-	     SUBSTITUTE,   STRENGTH
+	     SUBSTITUTE,   STRENGTH,     ICE_BEAM,     BLIZZARD
 	; end
 
 	db BANK(GengarPicFront)

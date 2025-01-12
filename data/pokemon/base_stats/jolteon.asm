@@ -3,7 +3,7 @@
 	db  65,  65,  60, 130, 110
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, ICE ; type
+	db ELECTRIC, ELECTRIC ; type
 	db 45 ; catch rate
 	db 197 ; base exp
 
@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     THUNDER_WAVE, SUBSTITUTE,   FLASH,        FLASHCANNON
 	; end
 
 	db BANK(JolteonPicFront)

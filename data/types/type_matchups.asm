@@ -74,7 +74,7 @@ TypeEffects:
 	db ROCK,         FLYING,       SUPER_EFFECTIVE
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
-	db GHOST,        NORMAL,       SUPER_EFFECTIVE
+	db GHOST,        NORMAL,       NO_EFFECT
 	db GHOST,        PSYCHIC_TYPE, NO_EFFECT
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE

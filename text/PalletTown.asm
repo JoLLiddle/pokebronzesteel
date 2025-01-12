@@ -18,12 +18,12 @@ _PalletTownOakItsUnsafeText::
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "I saw a DRATINI"
+	line "in the grass!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "I hope I can"
+	line "catch it and"
+	cont "cuddle it!"
 	done
 
 _PalletTownFisherText::

@@ -1,10 +1,10 @@
 	db DEX_POLIWAG ; pokedex id
 
-	db  40,  50,  40,  90,  40
+	db  40,  45,  35,  90,  50
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 255 ; catch rate
+	db 190 ; catch rate
 	db 77 ; base exp
 
 	INCBIN "gfx/pokemon/front/poliwag.pic", 0, 1 ; sprite dimensions
@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         PSYCHIC_M,    \
+	     WATER_GUN,    TELEPORT,     REFLECT,      RAGE,         PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     PSYWAVE,      SUBSTITUTE,   SURF
+	     PSYWAVE,      SUBSTITUTE,   SURF,         DREAM_EATER,  FLASH 
 	; end
 
 	db BANK(PoliwagPicFront)

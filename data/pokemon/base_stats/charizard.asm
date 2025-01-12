@@ -1,6 +1,6 @@
 	db DEX_CHARIZARD ; pokedex id
 
-	db  78,  84,  78, 100,  85
+	db  78, 100,  75, 102,  70
 	;   hp  atk  def  spd  spc
 
 	db ICE, DRAGON ; type
@@ -18,8 +18,9 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     CUT,          STRENGTH
+	     BLIZZARD,     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
+	     CUT,          STRENGTH,     RAZOR_WIND,   FLY,          ICE_BEAM,     \
+			 METAL_CLAW,   PURSUIT,      SKY_ATTACK
 	; end
 
 	db BANK(CharizardPicFront)

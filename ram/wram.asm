@@ -1528,7 +1528,7 @@ wMonHeaderEnd::
 ; saved at the start of a battle and then written back at the end of the battle
 wSavedTileAnimations:: db
 
-	ds 2
+	ds 1 ; Edited as more tms?
 
 wDamage:: dw
 

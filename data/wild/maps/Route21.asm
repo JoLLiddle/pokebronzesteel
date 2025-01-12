@@ -6,10 +6,10 @@ Route21WildMons:
 	db 23, RATICATE
 	db 21, VOLTORB
 	db 30, ELECTRODE
-	db 32, RATICATE
-	db 28, RATICATE
-	db 30, ELECTRODE
-	db 12, DRAGONAIR
+	db 5, CHILMANDER
+	db 5, BULBASAUR
+	db 5, SQUIRTLE
+	db 5, SQUIRTLE
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate

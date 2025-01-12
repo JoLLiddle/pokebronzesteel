@@ -337,8 +337,8 @@ ExeggcuteEvosMoves:
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
 	db 37, POISONPOWDER
-	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
+	db 42, SLEEP_POWDER
+	db 48, SOLARBEAM
 	db 0
 
 GrimerEvosMoves:
@@ -406,8 +406,8 @@ RhyhornEvosMoves:
 	db 0
 ; Learnset
 	db 30, ROCK_BLAST
-	db 35, THUNDERBOLT
-	db 40, THUNDER_WAVE
+	db 35, THUNDER_WAVE
+	db 40, THUNDER_STEP
 	db 45, HORN_DRILL
 	db 50, STONE_EDGE
 	db 0
@@ -489,7 +489,7 @@ GastlyEvosMoves:
 	db 0
 ; Learnset
   db 20, SMOG
-	db 27, SUPERSONIC
+	db 27, SLEEP_POWDER
 	db 35, GLACIATE
 	db 42, SLUDGE
 	db 49, TOXIC
@@ -563,7 +563,8 @@ RaimizuchuEvosMoves:
 ; Learnset
   db 25, WATER_GUN
   db 45, BUBBLEBEAM
-	db 55, HYDRO_PUMP
+	db 52, THUNDER
+	db 60, HYDRO_PUMP
 	db 0
 
 RaikusachuEvosMoves:
@@ -572,7 +573,8 @@ RaikusachuEvosMoves:
 ; Learnset
   db 25, VINE_WHIP
   db 45, RAZOR_LEAF
-	db 55, SOLARBEAM
+	db 52, THUNDER
+	db 60, SOLARBEAM
 	db 0
 
 GrowlitheEvosMoves:
@@ -700,8 +702,9 @@ HitmonleeEvosMoves:
 	db 33, ROLLING_KICK
 	db 38, FOCUS_ENERGY
 	db 43, HI_JUMP_KICK
-	db 48, FOUL_PLAY
-	db 53, MEGA_KICK
+	db 49, FOUL_PLAY
+	db 54, THUNDER_STEP
+	db 58, MEGA_KICK
 	db 0
 
 HitmonchanEvosMoves:
@@ -757,8 +760,8 @@ DrowzeeEvosMoves:
 	db 21, DISABLE
 	db 26, HYPNOSIS
 	db 28, PURSUIT
-	db 36, SNARL
-	db 43, NIGHT_DAZE
+	db 36, SAND_TOMB
+	db 43, FOUL_PLAY
 	db 50, FISSURE
 	db 0
 
@@ -777,7 +780,8 @@ RaikaenchuEvosMoves:
 ; Learnset
   db 25, EMBER
   db 45, FIRE_SPIN
-	db 55, FLAMETHROWER
+	db 52, THUNDER
+	db 60, FLAMETHROWER
 	db 0
 
 MagmarEvosMoves:
@@ -807,9 +811,9 @@ ElectabuzzEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, THUNDERSHOCK
+	db 9, QUICK_ATTACK
 	db 15, FOCUS_ENERGY
-	db 21, THUNDERPUNCH
+	db 21, BITE
 	db 25, SWORDS_DANCE
 	db 33, SKULL_BASH
 	db 40, BODY_SLAM
@@ -983,7 +987,7 @@ DoduoEvosMoves:
 	db 20, QUICK_ATTACK
 	db 24, GLACIATE
 	db 30, DRILL_PECK
-	db 36, ICE_BEAM
+	db 36, ICE_SPEARS
 	db 40, AGILITY
 	db 44, BLIZZARD
 	db 0
@@ -1129,8 +1133,8 @@ RaichuEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, RAIKAENCHU
 	db 0
 ; Learnset
-  db 36, AMNESIA
-	db 42, THUNDER
+	db 45, THUNDER_STEP
+	db 52, THUNDER
 	db 0
 
 MissingNo56EvosMoves:
@@ -1453,7 +1457,7 @@ DodrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 38, ICE_BEAM
+	db 38, ICE_SPEARS
 	db 42, TRI_ATTACK
 	db 48, AGILITY
 	db 54, BLIZZARD
@@ -1465,7 +1469,7 @@ PrimeapeEvosMoves:
 ; Learnset
 	db 35, SAND_TOMB
 	db 44, SWORDS_DANCE
-	db 52, EARTHQUAKE
+	db 52, FISSURE
 	db 0
 
 DugtrioEvosMoves:
@@ -1763,7 +1767,8 @@ PidgeotEvosMoves:
 ; Learnset
 	db 40, MIRROR_MOVE
 	db 48, THUNDER
-	db 55, SKY_ATTACK
+	db 55, STEEL_WING
+	db 62, SKY_ATTACK
 	db 0
 
 StarmieEvosMoves:
@@ -1860,7 +1865,7 @@ PonytaEvosMoves:
 	db 0
 ; Learnset
 	db 27, THUNDER_WAVE
-	db 35, THUNDERBOLT
+	db 35, THUNDER_STEP
 	db 39, AGILITY
 	db 43, TAKE_DOWN
 	db 48, THUNDER

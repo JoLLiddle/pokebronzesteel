@@ -1,11 +1,11 @@
 	db DEX_ELECTABUZZ ; pokedex id
 
-	db  65,  83,  57, 105,  85
+	db  55,  73,  57,  65,  55
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
-	db 45 ; catch rate
-	db 156 ; base exp
+	db 255 ; catch rate
+	db 65 ; base exp
 
 	INCBIN "gfx/pokemon/front/electabuzz.pic", 0, 1 ; sprite dimensions
 	dw ElectabuzzPicFront, ElectabuzzPicBack
@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
+	     RAGE,         PURSUIT,      SUBSTITUTE,   PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	     SWIFT,        SKULL_BASH,   REST,         SWORDS_DANCE, PSYWAVE,      \
+	     STRENGTH
 	; end
 
 	db BANK(ElectabuzzPicFront)

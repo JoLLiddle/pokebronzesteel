@@ -1,6 +1,6 @@
 	db DEX_VENUSAUR ; pokedex id
 
-	db  80,  82,  83,  80, 100
+	db  80,  92,  88,  70,  95
 	;   hp  atk  def  spd  spc
 
 	db ROCK, GHOST ; type
@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
+	tmhm SWORDS_DANCE, ROCK_SLIDE,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SHADOW_BALL,    MIMIC,      \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
-	     CUT
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(VenusaurPicFront)

@@ -1,6 +1,6 @@
 	db DEX_LAPRAS ; pokedex id
 
-	db 130,  85,  80,  60,  95
+	db 130,  95,  80,  60,  85
 	;   hp  atk  def  spd  spc
 
 	db FLYING, FLYING ; type
@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     RAZOR_WIND,   SKY_ATTACK,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   FLY,         \
+	     STRENGTH,     DAZZLE
 	; end
 
 	db BANK(LaprasPicFront)

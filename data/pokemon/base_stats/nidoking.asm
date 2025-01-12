@@ -1,6 +1,6 @@
 	db DEX_NIDOKING ; pokedex id
 
-	db  81,  92,  77,  85,  75
+	db  81,  102,  82,  85,  75
 	;   hp  atk  def  spd  spc
 
 	db MOON, DRAGON ; type
@@ -16,11 +16,11 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
+	     BLIZZARD,     HYPER_BEAM,   SUBSTITUTE,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   STRENGTH,     \
+	     SURF,         DRAGON_RAGE
 	; end
 
 	db BANK(NidokingPicFront)

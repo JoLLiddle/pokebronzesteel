@@ -1,11 +1,11 @@
 	db DEX_GROWLITHE ; pokedex id
 
-	db  55,  70,  45,  60,  50
+	db  55,  80,  45,  70,  40
 	;   hp  atk  def  spd  spc
 
 	db ROCK, FLYING ; type
 	db 190 ; catch rate
-	db 91 ; base exp
+	db 97 ; base exp
 
 	INCBIN "gfx/pokemon/front/growlithe.pic", 0, 1 ; sprite dimensions
 	dw GrowlithePicFront, GrowlithePicBack
@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	tmhm FLY,          BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
+	     DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  RAZOR_WIND,   \
 	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	     SUBSTITUTE,   STRENGTH,     SKY_ATTACK,   PURSUIT
 	; end
 
 	db BANK(GrowlithePicFront)

@@ -33,6 +33,7 @@ SpecialToPhysicalMoves:
         db VINE_WHIP
 ; Electric
         db THUNDERPUNCH
+        db THUNDER_STEP
 ; Ice
         db ICE_PUNCH
         db ICE_SPEARS

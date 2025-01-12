@@ -1,11 +1,11 @@
 	db DEX_BEEDRILL ; pokedex id
 
-	db  65,  80,  40,  75,  45
+	db  65,  85,  45,  85,  55
 	;   hp  atk  def  spd  spc
 
 	db BUG, ELECTRIC ; type
-	db 45 ; catch rate
-	db 159 ; base exp
+	db 80 ; catch rate
+	db 172 ; base exp
 
 	INCBIN "gfx/pokemon/front/beedrill.pic", 0, 1 ; sprite dimensions
 	dw BeedrillPicFront, BeedrillPicBack
@@ -17,7 +17,7 @@
 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     CUT
+	     CUT,          THUNDERBOLT,  THUNDER_WAVE, THUNDER,      PURSUIT
 	; end
 
 	db BANK(BeedrillPicFront)

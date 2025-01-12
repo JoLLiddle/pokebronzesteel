@@ -1,24 +1,25 @@
 	db DEX_DRAGONAIR ; pokedex id
 
-	db  61,  84,  65,  70,  70
+	db  56,  64,  55,  60,  70
 	;   hp  atk  def  spd  spc
 
 	db FAIRY, FAIRY ; type
-	db 45 ; catch rate
-	db 144 ; base exp
+	db 120 ; catch rate
+	db 102 ; base exp
 
 	INCBIN "gfx/pokemon/front/dragonair.pic", 0, 1 ; sprite dimensions
 	dw DragonairPicFront, DragonairPicBack
 
 	db CHARM, FAIRY_WIND, DISABLE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm TOXIC,        HORN_DRILL,   METRONOME,    SOLARBEAM,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
-	     DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         THUNDER_WAVE, SUBSTITUTE,   SURF
+	     PSYCHIC_M,    THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        DAZZLE,       \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH,        TELEPORT,     \
+			 FLASHCANNON,  PURSUIT,      SHADOW_BALL
 	; end
 
 	db BANK(DragonairPicFront)

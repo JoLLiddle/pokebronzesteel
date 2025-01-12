@@ -1,11 +1,11 @@
 	db DEX_ABRA ; pokedex id
 
-	db  25,  20,  15,  90, 105
+	db  20,  55,  15,  80, 85
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
-	db 200 ; catch rate
-	db 73 ; base exp
+	db 180 ; catch rate
+	db 93 ; base exp
 
 	INCBIN "gfx/pokemon/front/abra.pic", 0, 1 ; sprite dimensions
 	dw AbraPicFront, AbraPicBack
@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    SUBSTITUTE,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      PSYWAVE,      RAGE,         \
 	     FLASH,        TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SKULL_BASH,   REST,         METAL_CLAW
-	          
+	     BIDE,         METRONOME,    SKULL_BASH,   REST,         PURSUIT,      \
+			 STRENGTH        
 	; end
 
 	db BANK(AbraPicFront)

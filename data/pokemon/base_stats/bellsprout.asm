@@ -5,7 +5,7 @@
 
 	db FIRE, GRASS ; type
 	db 255 ; catch rate
-	db 84 ; base exp
+	db 52 ; base exp
 
 	INCBIN "gfx/pokemon/front/bellsprout.pic", 0, 1 ; sprite dimensions
 	dw BellsproutPicFront, BellsproutPicBack
@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         SUBSTITUTE,   CUT
+	     BIDE,         REST,         SUBSTITUTE,   CUT,          FIRE_BLAST
 	; end
 
 	db BANK(BellsproutPicFront)

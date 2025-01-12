@@ -1,11 +1,11 @@
 	db DEX_GRIMER ; pokedex id
 
-	db  80,  80,  50,  25,  40
+	db  80,  70,  50,  25,  60
 	;   hp  atk  def  spd  spc
 
 	db FIRE, WATER ; type
-	db 190 ; catch rate
-	db 90 ; base exp
+	db 170 ; catch rate
+	db 103 ; base exp
 
 	INCBIN "gfx/pokemon/front/grimer.pic", 0, 1 ; sprite dimensions
 	dw GrimerPicFront, GrimerPicBack
@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    RAGE,         MEGA_DRAIN,   THUNDERBOLT,  \
+	tmhm BUBBLEBEAM,   BODY_SLAM,    RAGE,         WATER_GUN,    THUNDERBOLT,  \
 	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
-	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
+	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE,   SURF,         \
+			 MEGA_PUNCH,   COUNTER
 	; end
 
 	db BANK(GrimerPicFront)

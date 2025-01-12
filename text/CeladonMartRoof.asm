@@ -83,7 +83,7 @@ _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
 	para "TM49 contains"
-	line "TRI ATTACK!@"
+	line "SHADOW BALL!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::

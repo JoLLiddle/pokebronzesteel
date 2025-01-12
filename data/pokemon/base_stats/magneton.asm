@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         \
-	     THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        REST,         THUNDER_WAVE, \
+	     METAL_CLAW,   FLASHCANNON,  TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         SWIFT,        REST,         DAZZLE,       \
 	     SUBSTITUTE,   FLASH
 	; end
 

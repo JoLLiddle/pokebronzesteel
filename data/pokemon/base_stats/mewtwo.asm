@@ -16,12 +16,12 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     HYPER_BEAM,   SUBSTITUTE,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     \
-	     FLASH
+	     THUNDER_WAVE, PSYWAVE,      STRENGTH,     FLASH,        FLASHCANNON,  \
+			 SHADOW_BALL,  PURSUIT,      DAZZLE,       MOON_TOUCH
 	; end
 
 	db BANK(MewtwoPicFront)

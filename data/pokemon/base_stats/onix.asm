@@ -1,11 +1,11 @@
 	db DEX_ONIX ; pokedex id
 
-	db  35,  45, 160,  70,  30
+	db  100,  105, 80,  60,  80
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type
 	db 45 ; catch rate
-	db 108 ; base exp
+	db 198 ; base exp
 
 	INCBIN "gfx/pokemon/front/onix.pic", 0, 1 ; sprite dimensions
 	dw OnixPicFront, OnixPicBack
@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         SELFDESTRUCT, SKULL_BASH,   REST,         EXPLOSION,    \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     ICE_BEAM,     SUBSTITUTE,   STRENGTH,     BLIZZARD,     SURF
 	; end
 
 	db BANK(OnixPicFront)

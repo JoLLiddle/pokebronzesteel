@@ -1,11 +1,11 @@
 	db DEX_WEEZING ; pokedex id
 
-	db  65,  90, 120,  60,  85
+	db  65,  80, 110,  50,  75
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
-	db 60 ; catch rate
-	db 173 ; base exp
+	db 110 ; catch rate
+	db 138 ; base exp
 
 	INCBIN "gfx/pokemon/front/weezing.pic", 0, 1 ; sprite dimensions
 	dw WeezingPicFront, WeezingPicBack
@@ -14,9 +14,9 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
-	     REST,         EXPLOSION,    SUBSTITUTE
+	tmhm TOXIC,        HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,   \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, BODY_SLAM,   \
+	     REST,         EXPLOSION,    SUBSTITUTE,   TAKE_DOWN,    DOUBLE_EDGE
 	; end
 
 	db BANK(WeezingPicFront)

@@ -1,6 +1,6 @@
 	db DEX_PSYDUCK ; pokedex id
 
-	db  50,  52,  48,  55,  50
+	db  50,  67,  48,  55,  35
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
+	     SUBSTITUTE,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     SKULL_BASH,   REST,         SURF,         STRENGTH
 	; end
 
 	db BANK(PsyduckPicFront)

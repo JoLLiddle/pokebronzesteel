@@ -1,6 +1,6 @@
 	db DEX_NIDORAN_F ; pokedex id
 
-	db  55,  47,  52,  41,  40
+	db  55,  40,  52,  38,  50
 	;   hp  atk  def  spd  spc
 
 	db MOON, MOON ; type
@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     \
+	tmhm MOON_TOUCH,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     \
 	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE
+	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
+			 PURSUIT
 	; end
 
 	db BANK(NidoranFPicFront)

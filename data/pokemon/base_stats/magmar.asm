@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db DARK, DARK ; type
-	db 45 ; catch rate
-	db 167 ; base exp
+	db 90 ; catch rate
+	db 147 ; base exp
 
 	INCBIN "gfx/pokemon/front/magmar.pic", 0, 1 ; sprite dimensions
 	dw MagmarPicFront, MagmarPicBack
@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     PSYWAVE,      SUBSTITUTE,   STRENGTH
+	     BIDE,         METRONOME,    DARK_PULSE,   SKULL_BASH,   REST,         \
+	     PSYWAVE,      SUBSTITUTE,   STRENGTH,     PURSUIT
 	; end
 
 	db BANK(MagmarPicFront)

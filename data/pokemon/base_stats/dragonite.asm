@@ -1,25 +1,26 @@
 	db DEX_DRAGONITE ; pokedex id
 
-	db  91, 134,  95,  80, 100
+	db  91, 84,  75,  80, 100
 	;   hp  atk  def  spd  spc
 
 	db FAIRY, FAIRY ; type
 	db 45 ; catch rate
-	db 218 ; base exp
+	db 132 ; base exp
 
 	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1 ; sprite dimensions
 	dw DragonitePicFront, DragonitePicBack
 
 	db CHARM, FAIRY_WIND, DISABLE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
+	tmhm RAZOR_WIND,   TOXIC,        HORN_DRILL,   METRONOME,    SOLARBEAM,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     SWIFT,        DAZZLE,       REST,         THUNDER_WAVE, SUBSTITUTE,   \
+	     FLASH,        FLY,          TELEPORT,     FLASHCANNON,  PURSUIT,      \
+			 SHADOW_BALL
 	; end
 
 	db BANK(DragonitePicFront)

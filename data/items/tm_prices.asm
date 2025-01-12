@@ -4,7 +4,7 @@ TechnicalMachinePrices:
 	nybble 3 ; TM01
 	nybble 2 ; TM02
 	nybble 2 ; TM03
-	nybble 1 ; TM04
+	nybble 1 ; TM04 - PURSUIT
 	nybble 3 ; TM05
 	nybble 4 ; TM06
 	nybble 2 ; TM07
@@ -16,7 +16,7 @@ TechnicalMachinePrices:
 	nybble 4 ; TM13
 	nybble 5 ; TM14
 	nybble 5 ; TM15
-	nybble 5 ; TM16
+	nybble 5 ; TM16 - SHADOW BALL
 	nybble 3 ; TM17
 	nybble 2 ; TM18
 	nybble 3 ; TM19
@@ -49,10 +49,10 @@ TechnicalMachinePrices:
 	nybble 4 ; TM46
 	nybble 3 ; TM47
 	nybble 4 ; TM48
-	nybble 4 ; TM49
+	nybble 5 ; TM49 - FLASHCANNON
 	nybble 2 ; TM50
-	nybble 3 ; TM51
-	nybble 4 ; TM52
-	nybble 4 ; TM53
-	nybble 4 ; TM54
+	nybble 1 ; TM51
+	nybble 1 ; TM52
+	nybble 1 ; TM53
+	nybble 1 ; TM54
 	end_nybble_array NUM_TMS

@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
-	db 45 ; catch rate
-	db 92 ; base exp
+	db 190 ; catch rate
+	db 82 ; base exp
 
 	INCBIN "gfx/pokemon/front/eevee.pic", 0, 1 ; sprite dimensions
 	dw EeveePicFront, EeveePicBack

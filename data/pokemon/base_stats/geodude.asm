@@ -1,11 +1,11 @@
 	db DEX_GEODUDE ; pokedex id
 
-	db  40,  80, 100,  20,  30
+	db  40,  70, 80,  20,  55
 	;   hp  atk  def  spd  spc
 
 	db STEEL, STEEL ; type
-	db 255 ; catch rate
-	db 86 ; base exp
+	db 190 ; catch rate
+	db 92 ; base exp
 
 	INCBIN "gfx/pokemon/front/geodude.pic", 0, 1 ; sprite dimensions
 	dw GeodudePicFront, GeodudePicBack
@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	tmhm MEGA_PUNCH,   METAL_CLAW,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    \

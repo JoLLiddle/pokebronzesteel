@@ -1,11 +1,11 @@
 	db DEX_MACHOKE ; pokedex id
 
-	db  80, 100,  70,  45,  50
+	db  85, 100,  70,  45,  50
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, STEEL ; type
 	db 90 ; catch rate
-	db 146 ; base exp
+	db 157 ; base exp
 
 	INCBIN "gfx/pokemon/front/machoke.pic", 0, 1 ; sprite dimensions
 	dw MachokePicFront, MachokePicBack
@@ -18,7 +18,8 @@
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     METAL_CLAW,   FLASHCANNON,  \
+			 DAZZLE
 	; end
 
 	db BANK(MachokePicFront)

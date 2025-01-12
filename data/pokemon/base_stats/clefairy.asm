@@ -11,7 +11,7 @@
 	dw ClefairyPicFront, ClefairyPicBack
 
 	db POUND, GROWL, CHARM, NO_MOVE ; level 1 learnset
-	db GROWTH_FAST ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
@@ -19,8 +19,8 @@
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         SOLARBEAM,    \
 	     THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   \
+	     STRENGTH,     FLASH,        MOON_TOUCH,   FLASHCANNON,  DARK_PULSE
 	; end
 
 	db BANK(ClefairyPicFront)

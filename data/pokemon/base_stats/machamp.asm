@@ -1,11 +1,11 @@
 	db DEX_MACHAMP ; pokedex id
 
-	db  90, 130,  80,  55,  65
+	db  100, 130,  80,  55,  65
 	;   hp  atk  def  spd  spc
 
 	db STEEL, FIGHTING ; type
 	db 45 ; catch rate
-	db 193 ; base exp
+	db 204 ; base exp
 
 	INCBIN "gfx/pokemon/front/machamp.pic", 0, 1 ; sprite dimensions
 	dw MachampPicFront, MachampPicBack
@@ -18,7 +18,8 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     METAL_CLAW,   \
+			 FLASHCANNON,  DAZZLE
 	; end
 
 	db BANK(MachampPicFront)

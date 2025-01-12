@@ -1,11 +1,11 @@
 	db DEX_DIGLETT ; pokedex id
 
-	db  10,  55,  25,  95,  45
+	db  15,  45,  25,  95,  55
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
 	db 255 ; catch rate
-	db 81 ; base exp
+	db 86 ; base exp
 
 	INCBIN "gfx/pokemon/front/diglett.pic", 0, 1 ; sprite dimensions
 	dw DiglettPicFront, DiglettPicBack
@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE
+	     BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE,   MEGA_DRAIN,   \
+			 SOLARBEAM,    STRENGTH
 	; end
 
 	db BANK(DiglettPicFront)

@@ -1,6 +1,6 @@
 	db DEX_MR_MIME ; pokedex id
 
-	db  40,  45,  65,  90, 100
+	db  40,  65,  65,  90, 80
 	;   hp  atk  def  spd  spc
 
 	db DARK, PSYCHIC_TYPE ; type
@@ -19,7 +19,8 @@
 	     RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
 	     METRONOME,    SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   FLASH
+	     SUBSTITUTE,   FLASH,        DARK_PULSE,   PURSUIT,      DAZZLE,       \
+			 MOON_TOUCH
 	; end
 
 	db BANK(MrMimePicFront)

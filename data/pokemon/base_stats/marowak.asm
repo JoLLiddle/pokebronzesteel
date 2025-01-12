@@ -1,11 +1,11 @@
 	db DEX_MAROWAK ; pokedex id
 
-	db  60,  80, 110,  45,  50
+	db  60,  90, 85,  80,  110
 	;   hp  atk  def  spd  spc
 
 	db GHOST, GHOST ; type
-	db 75 ; catch rate
-	db 124 ; base exp
+	db 85 ; catch rate
+	db 184 ; base exp
 
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     SHADOW_BALL,  DARK_PULSE,   PURSUIT,      MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     STRENGTH
+	     STRENGTH,     
 	; end
 
 	db BANK(MarowakPicFront)

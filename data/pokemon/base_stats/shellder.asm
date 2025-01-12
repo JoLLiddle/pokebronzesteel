@@ -11,13 +11,13 @@
 	dw ShellderPicFront, ShellderPicBack
 
 	db TACKLE, WITHDRAW, POISON_STING, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     RAGE,         TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        \
-	     REST,         EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF
+	     REST,         EXPLOSION,    SUBSTITUTE,   SURF,         FLASHCANNON   \
 	; end
 
 	db BANK(ShellderPicFront)

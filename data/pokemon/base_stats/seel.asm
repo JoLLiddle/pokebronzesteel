@@ -1,11 +1,11 @@
 	db DEX_SEEL ; pokedex id
 
-	db  65,  45,  55,  45,  70
+	db  75,  45,  55,  45,  80
 	;   hp  atk  def  spd  spc
 
 	db WATER, FAIRY ; type
-	db 190 ; catch rate
-	db 100 ; base exp
+	db 170 ; catch rate
+	db 121 ; base exp
 
 	INCBIN "gfx/pokemon/front/seel.pic", 0, 1 ; sprite dimensions
 	dw SeelPicFront, SeelPicBack
@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     SUBSTITUTE,   \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     REST,         SURF,         STRENGTH,     DAZZLE
 	; end
 
 	db BANK(SeelPicFront)

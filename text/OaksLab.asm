@@ -26,20 +26,20 @@ _OaksLabThoseArePokeBallsText::
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "ice #MON,"
+	text "So! It's the ice"
+	line "dragon #MON,"
 	cont "CHILMANDER?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
+	text "So! It's the dark"
 	line "fire #MON,"
 	cont "HURTLE?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "petrified #MON,"
+	text "So! It's the rock"
+	line "ghost #MON,"
 	cont "PETRABULB?"
 	done
 

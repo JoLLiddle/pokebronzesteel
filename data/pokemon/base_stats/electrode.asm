@@ -1,11 +1,11 @@
 	db DEX_ELECTRODE ; pokedex id
 
-	db  60,  50,  70, 140,  80
+	db  60,  60,  70, 75,  80
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
-	db 60 ; catch rate
-	db 150 ; base exp
+	db 120 ; catch rate
+	db 110 ; base exp
 
 	INCBIN "gfx/pokemon/front/electrode.pic", 0, 1 ; sprite dimensions
 	dw ElectrodePicFront, ElectrodePicBack
@@ -14,10 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         THUNDERBOLT,  \
-	     THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	tmhm TOXIC,        TAKE_DOWN,    HYPER_BEAM,   RAGE,         FLASHCANNON,  \
+	     FLASH,        TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         SELFDESTRUCT, SWIFT,        SKULL_BASH,   REST,         \
-	     THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
+	     SUBSTITUTE,   EXPLOSION   
 	; end
 
 	db BANK(ElectrodePicFront)

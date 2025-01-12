@@ -5,7 +5,7 @@
 
 	db POISON, ICE ; type
 	db 190 ; catch rate
-	db 95 ; base exp
+	db 107 ; base exp
 
 	INCBIN "gfx/pokemon/front/gastly.pic", 0, 1 ; sprite dimensions
 	dw GastlyPicFront, GastlyPicBack
@@ -16,7 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
-	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE
+	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   \
+			 ICE_BEAM,     BLIZZARD
 	; end
 
 	db BANK(GastlyPicFront)

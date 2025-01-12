@@ -1,11 +1,11 @@
 	db DEX_DROWZEE ; pokedex id
 
-	db  60,  48,  45,  42,  90
+	db  60,  86,  45,  42,  52
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
 	db 190 ; catch rate
-	db 102 ; base exp
+	db 109 ; base exp
 
 	INCBIN "gfx/pokemon/front/drowzee.pic", 0, 1 ; sprite dimensions
 	dw DrowzeePicFront, DrowzeePicBack
@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     DARK_PULSE,   DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         METRONOME,    SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     THUNDER_WAVE, PURSUIT,      SUBSTITUTE,   STRENGTH,     EARTHQUAKE,   \
+			 FISSURE
 	; end
 
 	db BANK(DrowzeePicFront)

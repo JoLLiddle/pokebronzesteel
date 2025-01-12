@@ -1,6 +1,6 @@
 	db DEX_POLIWRATH ; pokedex id
 
-	db  90,  85,  95,  70,  70
+	db  90,  80,  85,  70,  85
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, FIGHTING ; type
@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
+	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    TELEPORT,     REFLECT,      \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
 	     BIDE,         METRONOME,    SKULL_BASH,   REST,         PSYWAVE,      \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	     SUBSTITUTE,   SURF,         STRENGTH,     DREAM_EATER,  FLASH
 	; end
 
 	db BANK(PoliwrathPicFront)

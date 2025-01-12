@@ -133,7 +133,7 @@ AttackAnimationPointers:
 	dw SpikeCannonAnim
 	dw ConstrictAnim
 	dw AmnesiaAnim
-	dw KinesisAnim
+	dw ThunderKickAnim
 	dw SoftboiledAnim
 	dw HiJumpKickAnim
 	dw GlareAnim
@@ -1054,8 +1054,12 @@ AmnesiaAnim:
 	battle_anim AMNESIA, SUBANIM_0_STATUS_CONFUSED, 0, 8
 	db -1 ; end
 
-KinesisAnim:
-	battle_anim KINESIS, SUBANIM_0_STAR_TWICE, 0, 8
+ThunderKickAnim:
+	battle_anim STOMP, SUBANIM_1_STAR_BIG, 1, 8
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_LIGHTNING, 1, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim THUNDERBOLT, SUBANIM_1_LIGHTNING_BALL, 1, 2
 	db -1 ; end
 
 SoftboiledAnim:

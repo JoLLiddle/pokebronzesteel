@@ -1,11 +1,11 @@
 	db DEX_TENTACRUEL ; pokedex id
 
-	db  80,  70,  65, 100, 120
+	db  80, 105,  65, 85,  70
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
-	db 60 ; catch rate
-	db 205 ; base exp
+	db 100 ; catch rate
+	db 160 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacruel.pic", 0, 1 ; sprite dimensions
 	dw TentacruelPicFront, TentacruelPicBack
@@ -14,10 +14,10 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
+	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  SOLARBEAM,    \
+	     SUBSTITUTE,   PSYWAVE,      PSYCHIC_M,    HYPER_BEAM,   RAGE,         \
 	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          SURF
+	     SKULL_BASH,   REST,         CUT,          DARK_PULSE
 	; end
 
 	db BANK(TentacruelPicFront)

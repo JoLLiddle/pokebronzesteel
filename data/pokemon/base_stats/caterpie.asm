@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm
+	tmhm MEGA_DRAIN
 	; end
 
 	db BANK(CaterpiePicFront)
