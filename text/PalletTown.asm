@@ -4,21 +4,21 @@ _PalletTownOakHeyWaitDontGoOutText::
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: It's unsafe"
+	line "out in the wild!"
+	cont "Come with me, so"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "that I can give"
+	line "you your own"
+	cont "#MON for"
+	cont "protection!"
 
-	para "Here, come with"
-	line "me!"
+	para "You can repay me"
+	line "with an errand."
 	done
 
 _PalletTownGirlText::
-	text "I saw a DRATINI"
+	text "I saw a FAIRY"
 	line "in the grass!"
 
 	para "I hope I can"

@@ -5,10 +5,13 @@ _BluesHouseDaisyRivalAtLabText::
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "You really should"
+	line "use anki!"
+
+	para "<RIVAL> has"
+	line "learnt so much!"
+	cont "At least take"
+	cont "this map!"
 	prompt
 
 _GotMapText::

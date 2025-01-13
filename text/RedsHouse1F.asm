@@ -1,12 +1,12 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MOM: My"
+	line "boy is so"
+	cont "studious! He's"
+	cont "gonna be a DR!"
 
 	para "PROF.OAK, next"
 	line "door, is looking"
-	cont "for you."
+	cont "for you!"
 	done
 
 _RedsHouse1FMomYouShouldRestText::

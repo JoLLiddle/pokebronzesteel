@@ -6,8 +6,8 @@ _OaksLabRivalGrampsIsntAroundText::
 
 _OaksLabRivalGoAheadAndChooseText::
 	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	line "know which one" 
+	cont "is better!"
 
 	para "Go ahead and"
 	line "choose, <PLAYER>!"
@@ -67,51 +67,46 @@ _OaksLabOak1WhichPokemonDoYouWantText::
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "OAK: Now, please"
+	line "go to VIRIDIAN"
+	cont "and collect a"
+	cont "parcel for me!"
 	done
 
 _OaksLabOak1RaiseYourYoungPokemonText::
 	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "dont forget to"
+	cont "get my parcel"
+	cont "from VIRIDIAN!"
 	done
 
 _OaksLabOak1DeliverParcelText::
 	text "OAK: Oh, <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
-
-	para "Well, it seems to"
-	line "like you a lot."
-
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
-
-	para "What? You have"
-	line "something for me?"
-
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	line "OAK's PARCEL."
+
+	para "Thank you, these"
+	line "are the custom"
+  cont "#BALL I"
+	cont "ordered."
+
+	para "Now, just to"
+	line "wait for <RIVAL>."
+	cont "Soon, hopefully.@"
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "Thank you again"
+	line "for collecting"
+	cont "my order!"
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "Get to it, or"
+	line "i'll put your"
+	cont "name last!"
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
@@ -152,14 +147,14 @@ _OaksLabOak1ComeSeeMeSometimesText::
 	line "sometimes."
 
 	para "I want to know how"
-	line "your #DEX is"
+	line "my #DEX is"
 	cont "coming along."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
 	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
+	line "you! How is my "
+	cont "data coming? "
 	cont "Here, let me take"
 	cont "a look!"
 	prompt
@@ -236,8 +231,8 @@ _OaksLabOakDontGoAwayYetText::
 	done
 
 _OaksLabRivalIllTakeThisOneText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: I got"
+	line "this. This one!"
 	done
 
 _OaksLabRivalReceivedMonText::
@@ -250,11 +245,11 @@ _OaksLabRivalReceivedMonText::
 _OaksLabRivalIllTakeYouOnText::
 	text "<RIVAL>: Wait"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Ready to get beat?"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "I've studied all"
+	line "the types, let's"
+	cont "duel!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
@@ -265,18 +260,18 @@ _OaksLabRivalIPickedTheWrongPokemonText::
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Yeah!"
+	line "#MON are easy!"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: You"
+	line "should have been"
+	cont "using anki to"
+	cont "learn the types!"
 
 	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	line "Cya Nerds!"
 	done
 
 _OaksLabRivalGrampsText::
@@ -295,17 +290,17 @@ _OaksLabOakIHaveARequestText::
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "Here is your own"
+	line "#DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "No one has filled"
+	line "one out for the"
+	cont "past 1,000 years!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Ever since the"
+	line "comet hit MT MOON"
+	cont "and the #MON"
+	cont "changed!"
 	done
 
 _OaksLabOakGotPokedexText::
@@ -318,19 +313,22 @@ _OaksLabOakGotPokedexText::
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "I am doing my PhD"
+	line "and need you to"
+	cont "collect data for"
+	cont "me!"
 
-	para "That was my dream!"
+	para "You can have your"
+	line "names on it of"
+	cont "course..."
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Imagine how"
+	line "out of date all"
+	cont "the old data is!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "I'm gonna become"
+	line "so famous from"
+	cont "this!"
 
 	para "Get moving, you"
 	line "two!"
@@ -351,7 +349,8 @@ _OaksLabRivalLeaveItAllToMeText::
 
 	para "I know! I'll"
 	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	cont "from my sis,"
+	cont "the anki queen!"
 
 	para "I'll tell her not"
 	line "to lend you one,"

@@ -289,10 +289,6 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
 	db 38, DIG
 	db 44, SLUDGE
 	db 55, TOXIC
