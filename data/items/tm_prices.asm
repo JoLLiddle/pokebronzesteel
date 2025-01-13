@@ -51,8 +51,8 @@ TechnicalMachinePrices:
 	nybble 4 ; TM48
 	nybble 5 ; TM49 - FLASHCANNON
 	nybble 2 ; TM50
-	nybble 1 ; TM51
-	nybble 1 ; TM52
-	nybble 1 ; TM53
-	nybble 1 ; TM54
+	nybble 3 ; TM51
+	nybble 4 ; TM52
+	nybble 4 ; TM53
+	nybble 4 ; TM54
 	end_nybble_array NUM_TMS

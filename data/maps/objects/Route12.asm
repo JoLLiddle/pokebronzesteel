@@ -7,7 +7,7 @@
 	const_export ROUTE12_FISHER3
 	const_export ROUTE12_FISHER4
 	const_export ROUTE12_FISHER5
-	const_export ROUTE12_TM_PAY_DAY
+	const_export ROUTE12_TM_FLASHCANNON
 	const_export ROUTE12_IRON
 
 Route12_Object:
