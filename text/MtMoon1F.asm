@@ -33,8 +33,8 @@ _MtMoon1FYoungster1AfterBattleText::
 
 _MtMoon1FCooltrainerF1BattleText::
 	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	line "bigger on the"
+	cont "inside!"
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
@@ -107,13 +107,14 @@ _MtMoon1FYoungster3EndBattleText::
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
+	text "NOGROG is tough!"
 	line "But, it can be"
 	cont "useful if you"
 	cont "catch one."
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Beware! NOGROG is"
+	line "might turn you"
+	cont "to stone!"
 	done

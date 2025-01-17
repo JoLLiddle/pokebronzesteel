@@ -59,8 +59,8 @@ _Route17Biker4AfterBattleText::
 	done
 
 _Route17Biker5BattleText::
-	text "Let VOLTORB"
-	line "electrify you!"
+	text "Im gonna show"
+	line "you my power!!"
 	done
 
 _Route17Biker5EndBattleText::
@@ -69,9 +69,8 @@ _Route17Biker5EndBattleText::
 	prompt
 
 _Route17Biker5AfterBattleText::
-	text "I got my VOLTORB"
-	line "at the abandoned"
-	cont "POWER PLANT."
+	text "I got my pokemon"
+	line "fair and square!"
 	done
 
 _Route17Biker6BattleText::

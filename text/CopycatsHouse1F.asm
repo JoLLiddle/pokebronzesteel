@@ -16,6 +16,6 @@ _CopycatsHouse1FMiddleAgedManText::
 	done
 
 _CopycatsHouse1FChanseyText::
-	text "CHANSEY: Chaan!"
-	line "Sii!@"
+	text "TRANQUILA: TRAN!"
+	line "QUILA!@"
 	text_end

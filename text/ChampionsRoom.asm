@@ -62,16 +62,15 @@ _RivalVictoryText::
 	cont "#MON genius!"
 
 	para "Nice try, loser!"
-	line "Hahaha!"
+	line "Hahaha! Nerd!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
 	text "Why?"
 	line "Why did I lose?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "I memorised all"
+	line "40k anki cards..."
 
 	para "Darn it! You're"
 	line "the new #MON"
@@ -119,14 +118,13 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	line "understand why"
 	cont "you lost?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "You didn't"
+	line "finish my research"
+	cont "for me!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Oh well, you have"
+	line "plenty of time"
+	cont "now to help!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
@@ -137,9 +135,9 @@ _ChampionsRoomOakComeWithMeText::
 	cont "was not just your"
 	cont "own doing!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "I sent you out on"
+	line "this journey!"
+	cont "I'm marvelous!"
 
 	para "<PLAYER>!"
 	line "Come with me!"

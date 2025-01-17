@@ -92,7 +92,7 @@ _CopycatsHouse2FPCMySecretsText::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "ECLIPSERA!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::

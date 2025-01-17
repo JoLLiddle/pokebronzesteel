@@ -74,15 +74,16 @@ _DexRatingText_Own80To89::
 
 _DexRatingText_Own90To99::
 	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	line "The research is"
+	cont "going well!"
 	done
 
 _DexRatingText_Own100To109::
 	text "You finally got at"
 	line "least 100 species!"
 	cont "I can't believe"
-	cont "how good you are!"
+	cont "how good my paper"
+	cont "will be!"
 	done
 
 _DexRatingText_Own110To119::
@@ -99,19 +100,19 @@ _DexRatingText_Own120To129::
 
 _DexRatingText_Own130To139::
 	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	line "Not much more"
+	cont "to go!"
 	done
 
 _DexRatingText_Own140To149::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "Almost there!"
+	line "Soon I'll be"
+	cont "even more"
+	cont "famous!"
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
+	text "The #DEX is"
 	line "entirely complete!"
-	cont "Congratulations!"
+	cont "We did it!"
 	done

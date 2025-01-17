@@ -1,17 +1,17 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "SHAMOAN: Kyarugo!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
 	text "I hate those"
 	line "horrible ROCKETs!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "That poor SHAMOAN."
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "It's mother was"
+	line "killed trying to"
+	cont "escape from"
+	cont "TEAM ROCKET!"
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::

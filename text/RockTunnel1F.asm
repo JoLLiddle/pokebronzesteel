@@ -9,9 +9,9 @@ _RockTunnel1FHiker1EndBattleText::
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Watch out in the"
+	line "dark! They say"
+	cont "shadows can hurt!"
 	done
 
 _RockTunnel1FHiker2BattleText::
@@ -48,13 +48,15 @@ _RockTunnel1FHiker3AfterBattleText::
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "They say some"
+	line "#MON only evovle"
+	cont "in the dark!"
 	done
 
 _RockTunnel1FSuperNerdEndBattleText::
-	text "Game"
-	line "over!"
+	text "Ahh damn, maybe"
+	line "they aren't strong"
+	cont "enough yet!"
 	prompt
 
 _RockTunnel1FSuperNerdAfterBattleText::
@@ -74,7 +76,7 @@ _RockTunnel1FCooltrainerF1EndBattleText::
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
+	text "I saw a NIGHTMIST"
 	line "in this tunnel!"
 	done
 

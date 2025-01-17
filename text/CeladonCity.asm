@@ -1,16 +1,17 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
+	text "I got my SPORLING"
+	line "near VIRIDIAN!"
 
 	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	line "makes me sleepy"
+	cont "sometimes!"
 	done
 
 _CeladonCityGramps1Text::
 	text "Heheh! This GYM"
 	line "is great! It's"
-	cont "full of women!"
+	cont "full of great"
+	cont "trainers!"
 	done
 
 _CeladonCityGirlText::

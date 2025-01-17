@@ -25,7 +25,7 @@ _Route19CooltrainerM2EndBattleText::
 
 _Route19CooltrainerM2AfterBattleText::
 	text "Watch out for"
-	line "TENTACOOL!"
+	line "SWEEL!"
 	done
 
 _Route19Swimmer1BattleText::
@@ -145,9 +145,9 @@ _Route19Swimmer8EndBattleText::
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "GYAROMEGA is so"
+	line "big, it must keep"
+	cont "you dry on water."
 	done
 
 _Route19SignText::

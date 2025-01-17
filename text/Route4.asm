@@ -1,23 +1,23 @@
 _Route4CooltrainerF1Text::
 	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	line "over a small"
+	cont "#MON, OMENYTE!"
 	done
 
 _Route4CooltrainerF2BattleText::
 	text "I came to get my"
-	line "mushroom #MON!"
+	line "moon #MON!"
 	done
 
 _Route4CooltrainerF2EndBattleText::
 	text "Oh! My cute"
-	line "mushroom #MON!"
+	line "moon #MON!"
 	prompt
 
 _Route4CooltrainerF2AfterBattleText::
 	text "There might not"
 	line "be any more"
-	cont "mushrooms here."
+	cont "#MON here."
 
 	para "I think I got"
 	line "them all."

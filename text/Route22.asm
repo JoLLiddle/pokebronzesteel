@@ -9,12 +9,15 @@ _Route22RivalBeforeBattleText1::
 	line "probably don't"
 	cont "have any BADGEs!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "I bet you don't"
+	line "even know what"
+	cont "types beat MOON!"
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "HAHA! You don't"
+	line "know what that is?"
+	
+	para "Prepare for the"
+	line "ANKING!"
 	done
 
 _Route22RivalAfterBattleText1::
@@ -29,6 +32,8 @@ _Route22RivalAfterBattleText1::
 	para "You should quit"
 	line "dawdling and get"
 	cont "a move on!"
+
+	para "Cya Nerd!"
 	done
 
 _Route22Rival1DefeatedText::
@@ -77,7 +82,7 @@ _Route22RivalAfterBattleText2::
 
 	para "But hey, you know"
 	line "that! I'm out of"
-	cont "here. Smell ya!"
+	cont "here. Cya nerd!"
 	done
 
 _Route22Rival2DefeatedText::
@@ -94,8 +99,8 @@ _Route22Rival2VictoryText::
 	cont "nowhere near as"
 	cont "good as me, pal!"
 
-	para "Go train some"
-	line "more! You loser!"
+	para "Go anki some"
+	line "more loser!"
 	prompt
 
 _Route22PokemonLeagueSignText::

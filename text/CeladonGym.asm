@@ -163,7 +163,7 @@ _CeladonGymAfterBattleText5::
 
 _CeladonGymBattleText6::
 	text "Don't bring any"
-	line "bugs or fire"
+	line "bugs or flying"
 	cont "#MON in here!"
 	done
 

@@ -7,34 +7,35 @@ _PokemonTower2FRivalWhatBringsYouHereText::
 
 	para "I can at least"
 	line "make them faint!"
-	cont "Let's go, pal!"
+	cont "Let's go, nerd!"
 	done
 
 _PokemonTower2FRivalDefeatedText::
 	text "What?"
-	line "You stinker!"
+	line "Am I the one who"
+	cont "is wrong!?"
 
-	para "I took it easy on"
-	line "you too!"
+	para "No... it's the"
+	line "children."
 	prompt
 
 _PokemonTower2FRivalVictoryText::
 	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	line "you'd have done"
+	cont "better if you'd"
+	cont "done 20k cards!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Get to it!"
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
 	text "How's your #DEX"
 	line "coming, pal?"
 	cont "I just caught a"
-	cont "CUBONE!"
+	cont "SHAMOAN!"
 
 	para "I can't find the"
-	line "grown-up MAROWAK"
+	line "grown-up SPIRISAGE"
 	cont "yet!"
 
 	para "I doubt there are"
@@ -43,7 +44,7 @@ _PokemonTower2FRivalHowsYourDexText::
 	cont "I've got a lot to"
 	cont "accomplish, pal!"
 
-	para "Smell ya later!"
+	para "Cya nerd!"
 	done
 
 _PokemonTower2FChannelerText::

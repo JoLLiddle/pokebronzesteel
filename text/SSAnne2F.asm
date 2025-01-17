@@ -22,13 +22,13 @@ _SSAnne2FRivalText::
 	line "#DEX coming?"
 
 	para "I already caught"
-	line "40 kinds, pal!"
+	line "60 kinds, pal!"
 
 	para "Different kinds"
 	line "are everywhere!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "If you studied,"
+	line "you'd know where!"
 	done
 
 _SSAnne2FRivalDefeatedText::
@@ -59,5 +59,5 @@ _SSAnne2FRivalCutMasterText::
 	line "really useful!"
 
 	para "You should go see"
-	line "him! Smell ya!"
+	line "him! Cya nerd!"
 	done

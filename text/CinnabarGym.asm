@@ -58,9 +58,9 @@ _CinnabarGymBlaineTM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "BLASTOISE or"
+	line "INFERNOS would"
+	cont "be good bets!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
@@ -153,9 +153,10 @@ _CinnabarGymSuperNerd5AfterBattleText::
 	cont "when a fiery bird"
 	cont "#MON appeared."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Its absorbed all"
+	line "the smoke, so he"
+	cont "could find his"
+	cont "way down!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
@@ -171,8 +172,8 @@ _CinnabarGymSuperNerd6EndBattleText::
 
 _CinnabarGymSuperNerd6AfterBattleText::
 	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	line "fans like FLAREON"
+	cont "and INFERNOS!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::

@@ -42,18 +42,18 @@ _CeladonMart3FGameBoyKid2Text::
 	para "My buddy's going"
 	line "to trade me his"
 	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "POLIWHIRL!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Come on POLIWHIRL!"
 
-	para "I love GRAVELER!"
+	para "I love POLIWHIRL!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
+	para "POLIWHIRL turned"
 	line "into a different"
 	cont "#MON!"
 	done

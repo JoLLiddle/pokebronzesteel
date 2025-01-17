@@ -20,12 +20,17 @@ _CeruleanCityRivalDefeatedText::
 	text "Hey!"
 	line "Take it easy!"
 	cont "You won already!"
+
+	para "I'm gonna increase"
+	line "my anki cards per"
+	cont "a day to 9001!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
 	text "Heh!"
 	line "You're no match"
 	cont "for my genius!"
+	
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
@@ -55,7 +60,7 @@ _CeruleanCityRivalIWentToBillsText::
 
 	para "Well, I better"
 	line "get rolling!"
-	cont "Smell ya later!"
+	cont "Cya nerd!"
 	done
 
 _CeruleanCityRocketText::

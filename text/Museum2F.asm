@@ -6,13 +6,13 @@ _Museum2FYoungsterText::
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "July 20, 1950!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "The coment hit"
+	line "MT.MOON."
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "The day all the"
+	line "pokemon changed!"
 	done
 
 _Museum2FScientistText::
@@ -39,7 +39,7 @@ _Museum2FSpaceShuttleSignText::
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
+	text "Comet that hit"
+	line "hard on MT.MOON."
 	cont "(MOON STONE?)"
 	done

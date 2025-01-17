@@ -1,9 +1,10 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "This was where"
+	line "the comet hit..."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Afterwards, all"
+	line "the pokemon"
+	cont "changed!"
 	done
 
 _MtMoonPokecenterGentlemanText::

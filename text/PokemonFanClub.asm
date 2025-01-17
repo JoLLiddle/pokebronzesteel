@@ -57,7 +57,7 @@ _PokemonFanClubChairmanStoryText::
 	line "Then listen up!"
 
 	para "My favorite"
-	line "RAPIDASH..."
+	line "RAPIZAP..."
 
 	para "It...cute..."
 	line "lovely...smart..."
@@ -69,7 +69,8 @@ _PokemonFanClubChairmanStoryText::
 	cont "love it!"
 
 	para "Hug it...when..."
-	cont "sleeping...warm"
+	cont "sleeping..."
+	cont "nightlight..."
 	cont "and cuddly..."
 	cont "spectacular..."
 	cont "ravishing..."

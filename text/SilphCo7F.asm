@@ -10,7 +10,7 @@ _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
+	text "It's SKYNESS. It's"
 	line "very intelligent."
 
 	para "We kept it in our"
@@ -20,10 +20,10 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for SKYNESS!"
 
 	para "It's a good"
-	line "swimmer. It'll"
+	line "flyer. It'll"
 	cont "give you a lift!"
 	done
 
@@ -188,7 +188,7 @@ _SilphCo7FRivalGoodLuckToYouText::
 	line "and ahead!"
 
 	para "By checking my"
-	line "#DEX, I'm"
+	line "anki deck, I'm"
 	cont "starting to see"
 	cont "what's strong and"
 	cont "how they evolve!"
@@ -205,5 +205,5 @@ _SilphCo7FRivalGoodLuckToYouText::
 	para "<PLAYER>, well"
 	line "good luck to you!"
 	cont "Don't sweat it!"
-	cont "Smell ya!"
+	cont "Cya nerd!"
 	done

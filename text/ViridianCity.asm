@@ -34,12 +34,12 @@ ViridianCityYoungster2OkThenText::
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "CATERPIE wont"
+	line "paralyse you, but"
+	cont "WEEDLE can."
 
 	para "Watch out for its"
-	line "POISON STING!"
+	line "THUNDERSHOCK!"
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
@@ -70,8 +70,8 @@ ViridianCityFisherYouCanHaveThisText::
 	line "I must have dozed"
 	cont "off in the sun."
 
-	para "I had this dream"
-	line "about a DROWZEE"
+	para "I had a nightmare"
+	line "about a HYPNO"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"

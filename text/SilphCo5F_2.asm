@@ -22,8 +22,8 @@ _SilphCo5FRocket2EndBattleText::
 _SilphCo5FRocket2AfterBattleText::
 	text "Which reminds me."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "PESTILE evolves"
+	line "into PESTUNE!"
 	done
 
 _SilphCo5FPokemonReport1Text::

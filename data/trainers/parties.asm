@@ -124,7 +124,7 @@ LassData:
 ; SS Anne 2F Rooms
 	db 18, VENONAT, PIKACHU, 0
 ; Route 8
-	db 23, NIDORAN_F, NIDORINA, 0
+	db 23, NIDORINA, NIDORINA, 0
 	db 25, EEVEE, ESPEON, UMBREON, 0
 	db 19, PIDGEOTTO, VULPIX, STARYU, VENONAT, DRATINI, 0
 	db 22, CLEFAIRY, STARMIE, 0
@@ -212,7 +212,7 @@ PokemaniacData:
 ; Victory Road 2F
 	db 40, CHARMELEON, LAPRAS, LICKITUNG, 0
 ; Rock Tunnel 1F
-	db 23, MANKEY, SLOWPOKE, 0
+	db 23, MANKEY, EEVEE, 0
 
 SuperNerdData:
 ; Mt. Moon 1F

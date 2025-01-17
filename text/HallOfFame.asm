@@ -16,13 +16,15 @@ _HallOfFameOakText::
 	line "also recorded in"
 	cont "the HALL OF FAME!"
 
-	para "<PLAYER>! You have"
-	line "endeavored hard"
-	cont "to become the new"
-	cont "LEAGUE champion!"
+	para "<PLAYER>! We can"
+	line "put your name"
+	cont "2nd on my paper!"
 
-	para "Congratulations,"
-	line "<PLAYER>, you and"
-	cont "your #MON are"
-	cont "HALL OF FAMERs!"
+	para "That will really"
+	line "boost my clout!"
+
+	para "Ah right... yeh."
+	line "Congratulations,"
+	cont "Now you are a"
+	cont "HALL OF FAMER!"
 	done

@@ -105,7 +105,7 @@ _OaksLabOak1ParcelThanksText::
 
 _OaksLabOak1PokemonAroundTheWorldText::
 	text "Get to it, or"
-	line "i'll put your"
+	line "I'll put your"
 	cont "name last!"
 	done
 

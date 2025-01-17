@@ -33,7 +33,7 @@ _PokemonMansionB1FDiaryText::
 	line "MEWTWO is far too"
 	cont "powerful."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "It escaped, but we"
+	line "still have it's"
+	cont "clone, MEWTHREE"
 	done
