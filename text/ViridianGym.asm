@@ -28,15 +28,18 @@ _ViridianGymGiovanniReceivedEarthBadgeText::
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Damn, having lost"
+	line "here and trouble"
+	cont "on the docks!"
+	
+	para "Now I have to go"
+	line "see what is"
+	cont "happening at the"
+	cont "SS.ANNE..."
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "I guess TEAM"
+	line "ROCKET is now"
+	cont "finished."
 
 	para "Let us meet again"
 	line "some day!"
