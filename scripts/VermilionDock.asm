@@ -210,7 +210,19 @@ VermilionDock_EraseSSAnne:
 
 VermilionDock_TextPointers:
 	def_text_pointers
+	dw_const VermilionDockMewPokeballText, TEXT_VERMILIONDOCK_MEW_POKEBALL
 	dw_const VermilionDockUnusedText, TEXT_VERMILIONDOCK_UNUSED
+
+VermilionDockMewPokeballText:
+	text_asm
+	lb bc, MEW, 5
+	call GivePokemon
+	jr nc, .party_full
+	ld a, HS_VERMILION_DOCK_MEW_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+.party_full
+	jp TextScriptEnd
 
 VermilionDockUnusedText:
 	text_far _VermilionDockUnusedText
