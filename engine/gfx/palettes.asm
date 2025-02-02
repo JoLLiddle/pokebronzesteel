@@ -273,8 +273,8 @@ BadgeBlkDataLengths:
 
 DeterminePaletteID:
 	bit TRANSFORMED, a ; a is battle status 3
-	ld a, PAL_GREYMON  ; if the mon has used Transform, use Ditto's palette
-	ret nz
+	ld a, DEX_DITTO	;ld a, PAL_GREYMON  ; shinpokerednote: FIXED: if the mon has used Transform, use Ditto's palette
+	jr nz, DeterminePaletteIDOutOfBattle.skipDexNumConversion ;ret nz
 	ld a, [hl]
 DeterminePaletteIDOutOfBattle:
 	ld [wPokedexNum], a
@@ -405,11 +405,11 @@ LoadSGB:
 	and a
 	ret z ; on DMG
 	;if on gbc, set SGB flag but skip all the SGB vram stuff
-	ld a, 1
+	ld a, $1
 	ld [wOnSGB], a
 	ret	
 .onSGB
-	ld a, 1
+	ld a, $1
 	ld [wOnSGB], a
 	di
 	call PrepareSuperNintendoVRAMTransfer
@@ -801,7 +801,7 @@ TransferCurOBPData: ;shinpokerednote: gbcnote: code from pokemon yellow
 	add a
 	add a
 	add a
-		or $80 ; set auto-increment bit of OBPI
+	or $80 ; set auto-increment bit of OBPI
 	ldh [rOBPI], a
 	ld de, rOBPD
 	ld hl, wGBCPal
@@ -944,7 +944,8 @@ palPacketPointers:
 	dw wPartyMenuBlkPacket
 	dw wTrainerCardBlkPacket
 	dw BlkPacket_GameFreakIntro
-	;dw wPalPacket
+	dw wPalPacket  ;jolnote this better not fix the problem
+	dw wPalPacketU ; unused
 	palPacketPointersEnd:
 
 CopySGBBorderTiles:

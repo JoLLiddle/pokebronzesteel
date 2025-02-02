@@ -954,6 +954,13 @@ ReplaceFaintedEnemyMon:
 	ld hl, wEnemyHPBarColor
 	ld e, $30
 	call GetBattleHealthBarColor
+;;;;;;;; jolnote gbc colour for pokeballs from vort
+	ldpal a, SHADE_BLACK, SHADE_DARK, SHADE_LIGHT, SHADE_WHITE
+	ld [rOBP0], a
+	ld [rOBP1], a
+	call UpdateGBCPal_OBP0
+	call UpdateGBCPal_OBP1
+;;;;;;;;
 	callfar DrawEnemyPokeballs
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
@@ -2399,6 +2406,7 @@ PartyMenuOrRockOrRun:
 	call LoadHudTilePatterns
 	call LoadScreenTilesFromBuffer2
 	call RunDefaultPaletteCommand
+	call PrintEmptyString	;gbcnote - added to prevent a 1-frame menu flicker
 	call GBPalNormal
 	jp DisplayBattleMenu
 .partyMonDeselected
@@ -6503,6 +6511,10 @@ LoadPlayerBackPic:
 	ld [hli], a ; OAM tile number
 	inc a ; increment tile number
 	ldh [hOAMTile], a
+;;;;; gbcnote - load correct palette for hat object
+	ld a, $2
+	ld [hl], a
+;;;;;
 	inc hl
 	dec c
 	jr nz, .innerLoop

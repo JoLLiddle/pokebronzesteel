@@ -77,7 +77,7 @@ CopyMonPicFromBGToSpriteVRAM:
 	ld [hli], a
 	ld a, d
 	ld [hli], a
-	ld a, OAM_OBP1
+	ld a, $14 ; use OBP1	;shinpokerednote: gbcnote - updated oam setting for GBC
 	ld [hli], a
 	inc d
 	dec c

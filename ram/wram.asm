@@ -2037,10 +2037,10 @@ wLastBGP::db
 wLastOBP0::db
 wLastOBP1::db 
 wBGPPalsBuffer:: ds NUM_ACTIVE_PALS * PAL_SIZE ; 32 bytes
-
+wdef5:: db
 ;;;;;;
 
-	ds 5 ; unused save file 4 bytes
+	ds 4 ; unused save file 4 bytes
 
 wObtainedHiddenItemsFlags:: flag_array MAX_HIDDEN_ITEMS
 
