@@ -310,8 +310,8 @@ INCLUDE "gfx/version.asm"
 
 SECTION "bank1C", ROMX
 
-INCLUDE "engine/movie/splash.asm"
-INCLUDE "engine/movie/hall_of_fame.asm"
+;INCLUDE "engine/movie/splash.asm"
+;INCLUDE "engine/movie/hall_of_fame.asm"
 INCLUDE "engine/overworld/healing_machine.asm"
 INCLUDE "engine/overworld/player_animations.asm"
 INCLUDE "engine/battle/ghost_marowak_anim.asm"
@@ -353,3 +353,16 @@ INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
 
+SECTION "Splash Animation", ROMX
+INCLUDE "engine/movie/splash.asm"
+INCLUDE "engine/movie/hall_of_fame.asm"
+
+SECTION "movedCode", ROMX
+; Moved from Home bank
+INCLUDE "audio/fade_audio.asm"
+
+SECTION "GBC Mode Code", ROMX
+
+; shinpokerednote: gbcnote: include the bgmap files from pokemon yellow
+INCLUDE "data/gbc/bg_map_attributes.asm"
+INCLUDE "engine/bg_map_attributes.asm"

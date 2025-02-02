@@ -397,6 +397,9 @@ hJoyInput:: db
 
 hDisableJoypadPolling:: db
 
-	ds 5
+	ds 3
+	
+hFlagsFFFA::db 
+hGBC:: db
 
 ENDSECTION

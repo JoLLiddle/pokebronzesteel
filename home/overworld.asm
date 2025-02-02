@@ -2312,6 +2312,10 @@ LoadMapData::
 	ld [wSpriteSetID], a
 	call LoadTextBoxTilePatterns
 	call LoadMapHeader
+
+	ld hl, hFlagsFFFA
+	set 3, [hl]
+
 	farcall InitMapSprites ; load tile pattern data for sprites
 	call LoadTileBlockMap
 	call LoadTilesetTilePatternData
@@ -2338,7 +2342,9 @@ LoadMapData::
 	jr nz, .vramCopyLoop
 	ld a, $01
 	ld [wUpdateSpritesEnabled], a
-	call EnableLCD
+	;call EnableLCD
+	ld hl, hFlagsFFFA
+	res 3, [hl]
 	ld b, SET_PAL_OVERWORLD
 	call RunPaletteCommand
 	call LoadPlayerSpriteGraphics

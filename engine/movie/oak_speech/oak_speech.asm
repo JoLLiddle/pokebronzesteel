@@ -117,8 +117,7 @@ OakSpeech:
 	ld a, SFX_SHRINK
 	call PlaySound
 	pop af
-	ldh [hLoadedROMBank], a
-	ld [MBC1RomBank], a
+	call SetCurBank
 	ld c, 4
 	call DelayFrames
 	ld de, RedSprite
@@ -145,8 +144,7 @@ OakSpeech:
 	ld [wNewSoundID], a
 	call PlaySound
 	pop af
-	ldh [hLoadedROMBank], a
-	ld [MBC1RomBank], a
+	call SetCurBank
 	ld c, 20
 	call DelayFrames
 	hlcoord 6, 5
@@ -185,6 +183,7 @@ FadeInIntroPic:
 .next
 	ld a, [hli]
 	ldh [rBGP], a
+	call UpdateGBCPal_BGP ; shinpokerednote: gbcnote: gbc color code from yellow 
 	ld c, 10
 	call DelayFrames
 	dec b
@@ -206,6 +205,7 @@ MovePicLeft:
 
 	ld a, %11100100
 	ldh [rBGP], a
+	call UpdateGBCPal_BGP ; shinpokerednote: gbcnote: gbc color code from yellow 
 .next
 	call DelayFrame
 	ldh a, [rWX]

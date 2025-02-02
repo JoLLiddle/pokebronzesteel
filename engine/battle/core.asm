@@ -63,10 +63,16 @@ SlidePlayerAndEnemySilhouettesOnScreen:
 	ld a, c
 	ldh [hSCX], a
 	call DelayFrame
+	call DelayFrame ;shinpokerednote: gbcnote: do one extra frame to make sure the screen can update
 	ld a, %11100100 ; inverted palette for silhouette effect
 	ldh [rBGP], a
 	ldh [rOBP0], a
 	ldh [rOBP1], a
+	;;;;;;;;;; shinpokerednote: gbcnote: color support from yellow
+	call UpdateGBCPal_OBP0
+	call UpdateGBCPal_OBP1
+;;;;;;;;;;
+	call EnableLCD ; shinpokerednote: FIXED: move enableLCD down here to avoid a 1 frame white flash on starting battle on DMG/GBC modes
 .slideSilhouettesLoop ; slide silhouettes of the player's pic and the enemy's pic onto the screen
 	ld h, b
 	ld l, $40
@@ -76,6 +82,13 @@ SlidePlayerAndEnemySilhouettesOnScreen:
 	ld h, $0
 	ld l, $60
 	call SetScrollXForSlidingPlayerBodyLeft ; end background scrolling on line $60
+	;;;;;;;;;; shinpokerednote: gbcnote: update BGP here so screen isn't revealed when scrolling is out of place
+	push af
+	ld a, b
+	cp $72
+	call z, UpdateGBCPal_BGP
+	pop af
+  ;;;;;;;;;;
 	call SlidePlayerHeadLeft
 	ld a, c
 	ldh [hSCX], a
@@ -93,6 +106,18 @@ SlidePlayerAndEnemySilhouettesOnScreen:
 	ldh [rWY], a
 	inc a
 	ldh [hAutoBGTransferEnabled], a
+
+	;;;;;;;;;; shinpokerednote: ADDED: revert the palette to what it should be if on DMG
+	ld a, [wOnSGB]
+	and a
+	jr nz, .notDmg
+	ldpal a, SHADE_BLACK, SHADE_DARK, SHADE_LIGHT, SHADE_WHITE
+	ldh [rBGP], a
+	ldh [rOBP0], a
+	ldh [rOBP1], a
+.notDmg
+;;;;;;;;;;
+
 	call Delay3
 	ld b, SET_PAL_BATTLE
 	call RunPaletteCommand
