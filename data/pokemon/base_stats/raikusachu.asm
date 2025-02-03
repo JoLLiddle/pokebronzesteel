@@ -7,8 +7,8 @@
 	db 45 ; catch rate
 	db 165 ; base exp
 
-	INCBIN "gfx/pokemon/front/raichu.pic", 0, 1 ; sprite dimensions
-	dw RaichuPicFront, RaichuPicBack
+	INCBIN "gfx/pokemon/front/raikusachu.pic", 0, 1 ; sprite dimensions
+	dw RaikusachuPicFront, RaichuPicBack
 
 	db THUNDERSHOCK, GROWL, THUNDER_WAVE, VINE_WHIP ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
@@ -22,5 +22,5 @@
 			 SOLARBEAM,    STRENGTH
 	; end
 
-	db BANK(RaichuPicFront)
-	assert BANK(RaichuPicFront) == BANK(RaichuPicBack)
+	db BANK(RaikusachuPicFront)
+	assert BANK(RaikusachuPicFront) == BANK(RaichuPicBack)
