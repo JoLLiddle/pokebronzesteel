@@ -51,8 +51,14 @@ VermilionCityDefaultScript:
 	ld a, TEXT_VERMILIONCITY_SAILOR1
 	ldh [hTextID], a
 	call DisplayTextID
+	ld a, [wObtainedBadges] ; PureRGBnote: CHANGED: ship returns after obtaining the earth badge so let the player in if they have the ticket
+	bit BIT_EARTHBADGE, a
+	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .ship_departed
+.default
+	CheckEvent EVENT_GOT_HM01
+	ret nz ; after getting CUT don't need SS ticket to enter
 	ld b, S_S_TICKET
 	predef GetQuantityOfItemInBag
 	ld a, b
@@ -157,31 +163,38 @@ VermilionCityGambler1Text:
 
 VermilionCitySailor1Text:
 	text_asm
+	ld a, [wObtainedBadges]
+	bit BIT_EARTHBADGE, a ; PureRGBnote: CHANGED: after obtaining earth badge the ship returns so this NPC will talk about it
+	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .ship_departed
+.default
 	ld a, [wSpritePlayerStateData1FacingDirection]
 	cp SPRITE_FACING_RIGHT
 	jr z, .greet_player
 	ld hl, .inFrontOfOrBehindGuardCoords
 	call ArePlayerCoordsInArray
-	jr nc, .greet_player_and_check_ticket
-.greet_player
-	ld hl, .WelcomeToSSAnneText
-	call PrintText
-	jr .end
+	jr c, .greet_player
 .greet_player_and_check_ticket
+	CheckEvent EVENT_GOT_HM01
+	ld hl, .ComeOnThroughText
+	jr nz, .player_has_ticket
 	ld hl, .DoYouHaveATicketText
 	call PrintText
 	ld b, S_S_TICKET
 	predef GetQuantityOfItemInBag
 	ld a, b
 	and a
+	ld hl, .FlashedTicketText
 	jr nz, .player_has_ticket
 	ld hl, .YouNeedATicketText
 	call PrintText
 	jr .end
+.greet_player
+	ld hl, .WelcomeToSSAnneText
+	call PrintText
+	jr .end
 .player_has_ticket
-	ld hl, .FlashedTicketText
 	call PrintText
 	ld a, SCRIPT_VERMILIONCITY_PLAYER_ALLOWED_TO_PASS
 	ld [wVermilionCityCurScript], a
@@ -215,6 +228,10 @@ VermilionCitySailor1Text:
 
 .ShipSetSailText:
 	text_far _VermilionCitySailor1ShipSetSailText
+	text_end
+
+.ComeOnThroughText:
+	text_far _VermilionCity1OhItsYouText
 	text_end
 
 VermilionCityGambler2Text:

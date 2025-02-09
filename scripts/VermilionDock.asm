@@ -37,7 +37,15 @@ VermilionDock_Script:
 	ret
 
 VermilionDockSSAnneLeavesScript:
+	;;;;;;;;;; PureRGBnote: ADDED: the ship will return so don't ever run the "ship leaves" script if we're in that state
+	ld a, [wObtainedBadges]
+	bit BIT_EARTHBADGE, a ; after obtaining 8 badges the ship returns
+	ret nz
+;;;;;;;;;;
 	SetEventForceReuseHL EVENT_SS_ANNE_LEFT
+;;;;;;;;;; we need to reset the palette here or the screen will be black
+	call GBPalNormal
+;;;;;;;;;; 
 	ld a, SFX_STOP_ALL_MUSIC
 	ld [wJoyIgnore], a
 	ld [wNewSoundID], a

@@ -18,7 +18,7 @@
 	     SHADOW_BALL,  PURSUIT,      ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     SUBMISSION,   SEISMIC_TOSS, RAGE,         MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     STRENGTH
+	     STRENGTH,     CUT
 	; end
 
 	db BANK(OmastarPicFront)

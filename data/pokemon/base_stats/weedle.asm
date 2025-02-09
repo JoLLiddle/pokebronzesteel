@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm THUNDERBOLT, THUNDER_WAVE
+	tmhm THUNDERBOLT, THUNDER_WAVE, CUT
 	; end
 
 	db BANK(WeedlePicFront)

@@ -101,6 +101,7 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld b, a ; evolution item
 	ld a, [wCurItem]
 	cp b ; was the evolution item in this entry used?
+	jp z, .checkLevel
 	jp nz, .nextEvoEntry1 ; if not, go to the next evolution entry
 .checkEeveeDark
   ld a, [wCurMap]
